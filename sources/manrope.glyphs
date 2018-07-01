@@ -13,7 +13,7 @@ Aea,
 "watch video /parenleft_greater_parenright.liga",
 "/parenleft_greater_parenright.liga",
 "",
-"AOQV/parenleft_greater_parenright.liga",
+story,
 "/parenleft_greater_parenright.liga",
 "©/parenleft_c_parenright.liga",
 "Watch /parenleft_greater_parenright.liga  (onano) xocoA->B",
@@ -7065,7 +7065,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2018-03-06 08:11:14 +0000";
+lastChange = "2018-07-01 16:52:22 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -33303,7 +33303,7 @@ space = -50;
 };
 "@MMK_L_R" = {
 "@MMK_R_N" = 30;
-"@MMK_R_Y" = -30;
+"@MMK_R_Y" = 30;
 };
 "@MMK_L_S" = {
 "@MMK_R_S" = 40;
@@ -33895,7 +33895,7 @@ space = -50;
 };
 "@MMK_L_R" = {
 "@MMK_R_N" = 30;
-"@MMK_R_Y" = -30;
+"@MMK_R_Y" = 40;
 };
 "@MMK_L_S" = {
 "@MMK_R_S" = 40;

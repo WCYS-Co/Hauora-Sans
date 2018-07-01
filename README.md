@@ -3,7 +3,7 @@ Manrope font is an open-source modern grotesque font family. Designed by Michael
 
 
 ## Changelog
-- v 1.006, July 1
+- v 1.000, July 1
 	- First release
 
 ## Future Plans
