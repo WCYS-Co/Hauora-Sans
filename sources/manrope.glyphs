@@ -91,7 +91,7 @@ code = "zero one two three four five six seven eight nine";
 name = Digit;
 }
 );
-copyright = "Copyright 2018 the Manrope Font authors (https://github.com/sharanda/manrope)";
+copyright = "Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)";
 customParameters = (
 {
 name = license;
