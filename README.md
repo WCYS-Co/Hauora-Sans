@@ -3,10 +3,18 @@ Manrope font is an open-source modern grotesque font family. Designed by Michael
 
 
 ## Changelog
+- v 1.001, July 10. Fixed:
+	- Wrong position of arc in /m;
+	- Kerning in /lslash;
+	- Bulgarian Cyrillic to more local;
+	- Vertical alignment in /parenleft /parenright coming with digit alone;
+	- Horizontal /comb alignments in extended Cyrillic;
+	- Baseline height in T, H, L, E, Ш, etc...
 - v 1.000, July 1
 	- First release
 
 ## Future Plans
+- Test Cyrillic more.
 - Collect feedback.
 - Start working on True Italics version.
 
