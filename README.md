@@ -1,6 +1,7 @@
 # Manrope Font
-Manrope font is an open-source modern grotesque font family. Designed by Michael Sharanda in 2018. Supports most of Latin & Cyrillic languages.
+Manrope font is an open-source modern sans-serif font family. Designed by Michael Sharanda in 2018. Supports most of Latin & Cyrillic languages.
 
+![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
 
 ## Changelog
 - v 1.001, July 10. Fixed:
