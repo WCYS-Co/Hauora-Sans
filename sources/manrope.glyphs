@@ -13,7 +13,7 @@ DisplayStrings = (
 "ß /ve-cy.loclBGR  /beta p",
 "ß",
 "/Tcommaaccent",
-"/slashshortcomb/lslash",
+"Pchn/aogonek/cacute  w t/eogonek  /lslash ód/zacute  je/zdotaccent a lub o/sacute m skrzy/nacute  fig=",
 "/Lslash",
 "/Iigrave-cy/iigrave-cy",
 "/iigrave-cy.loclBGR"
@@ -11181,7 +11181,7 @@ unicode = 013C;
 },
 {
 glyphname = lslash;
-lastChange = "2018-07-13 14:45:10 +0000";
+lastChange = "2018-07-13 15:29:43 +0000";
 layers = (
 {
 components = (
@@ -11193,6 +11193,7 @@ transform = "{1, 0, 0, 1, 90, 0}";
 {
 alignment = -1;
 name = slashshortcomb;
+transform = "{1, 0, 0, 1, 0, 42}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -11208,7 +11209,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 {
 alignment = -1;
 name = slashshortcomb;
-transform = "{1, 0, 0, 1, -15, 0}";
+transform = "{1, 0, 0, 1, -15, 30}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
