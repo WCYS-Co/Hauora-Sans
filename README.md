@@ -4,6 +4,12 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 ![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
 
 ## Changelog
+- v 1.004, July 17. Fixed:
+	- Fixed alignment in Semicolon;
+	- Fixed shape: /K /k /N /two;
+	- Adjusted kerning: /r and /y, /K and /O, /a and /w, all digits;
+	- Added ligature: t_t;
+	- Vertical alignment fixed: /at with number;
 - v 1.003, July 14. Fixed:
 	- /iigrave substitution if fixed for Bulgarian language;
 	- Monospaced digits switched back to normal. Made Tabular Figures as an OpenType feature;
