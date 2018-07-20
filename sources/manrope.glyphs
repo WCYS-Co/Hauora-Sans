@@ -39,7 +39,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2018-07-17 14:11:31 +0000";
+date = "2018-07-20 00:39:47 +0000";
 designer = "Michael Sharanda";
 designerURL = " http://gent.media";
 familyName = Manrope;
@@ -62,12 +62,11 @@ code = "sub N o period by numero;\012";
 name = ordn;
 },
 {
-automatic = 1;
-code = "sub space less three space by space_less_three_space.liga;\012sub f f l by f_f_l;\012sub parenleft c parenright by parenleft_c_parenright.liga;\012sub parenleft greater parenright by parenleft_greater_parenright.liga;\012sub f f by f_f;\012sub hyphen greater by hyphen_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub f l by fl;\012";
+code = "sub space less three space by space_less_three_space.liga;\012sub f f l by f_f_l;\012sub parenleft c parenright by parenleft_c_parenright.liga;\012sub parenleft greater parenright by parenleft_greater_parenright.liga;\012sub f f by f_f;\012sub hyphen greater by hyphen_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub f l by fl;\012sub t t by t_t;";
 name = liga;
 },
 {
-code = "# sub parenleft' @Digit by parenleft.case;\012# sub @Digit parenright' by parenright.case;\012\012sub parenleft' @Uppercase @Uppercase by parenleft.case;\012sub parenleft' @Uppercase [parenright parenright.case] by parenleft.case;\012sub braceleft' @Uppercase @Uppercase by braceleft.case;\012sub braceleft' @Uppercase [braceright braceright.case] by braceleft.case;\012sub bracketleft' @Uppercase @Uppercase by bracketleft.case;\012sub bracketleft' @Uppercase [bracketright bracketright.case] by bracketleft.case;\012sub guillemetleft' @Uppercase @Uppercase by guillemetleft.case;\012sub guillemetleft' @Uppercase [guillemetright guillemetright.case] by guillemetleft.case;\012\012sub @Uppercase @Uppercase parenright' by parenright.case;\012sub [parenleft parenleft.case] @Uppercase parenright' by parenright.case;\012sub @Uppercase @Uppercase braceright' by braceright.case;\012sub [braceleft braceleft.case] @Uppercase braceright' by braceright.case;\012sub @Uppercase @Uppercase bracketright' by bracketright.case;\012sub [bracketleft bracketleft.case] @Uppercase bracketright' by bracketright.case;\012sub @Uppercase @Uppercase guillemetright' by guillemetright.case;\012sub [guillemetleft guillemetleft.case] @Uppercase guillemetright' by guillemetright.case;\012\012sub @Uppercase exclamdown' by exclamdown.case;\012sub @Uppercase questiondown' by questiondown.case;\012\012sub @Uppercase periodcentered' @Uppercase by periodcentered.case;\012sub @Uppercase hyphen' @Uppercase by hyphen.case;\012sub @Uppercase endash' @Uppercase by endash.case;\012sub @Uppercase emdash' @Uppercase by emdash.case;\012\012sub @Uppercase periodcentered' @Uppercase by periodcentered.case;\012sub @Uppercase hyphen' @Uppercase by hyphen.case;\012sub @Uppercase endash' @Uppercase by endash.case;\012sub @Uppercase emdash' @Uppercase by emdash.case;\012\012sub at' @Digit by at.case;\012sub @Uppercase at' @Uppercase by at.case;\012sub copyright' @Uppercase @Uppercase by copyright.case;\012sub copyright' space @Uppercase @Uppercase by copyright.case;\012sub copyright' @Digit by copyright.case;\012sub copyright' space @Digit by copyright.case;\012\012sub I quotesingle' m by quoteright;\012sub y o u quotesingle' r e by quoteright;\012sub w e quotesingle' r e by quoteright;\012sub I quotesingle' v e by quoteright;\012sub w e quotesingle' v e by quoteright;\012sub quotesingle' s space by quoteright;\012sub n quotesingle' t by quoteright;\012\012\012sub @Digit greater' @Digit by greater.case;\012sub @Digit less' @Digit  by less.case;\012sub @Uppercase greater' @Uppercase by greater.case;\012sub @Uppercase less' @Uppercase  by less.case;\012\012sub @Uppercase leftArrow' @Uppercase by leftArrow.case;\012sub @Uppercase space leftArrow' space @Uppercase by leftArrow.case;\012sub @Uppercase rightArrow' @Uppercase by rightArrow.case;\012sub @Uppercase space rightArrow' space @Uppercase by rightArrow.case;";
+code = "# sub parenleft' @Digit by parenleft.case;\012# sub @Digit parenright' by parenright.case;\012\012sub parenleft' @Uppercase @Uppercase by parenleft.case;\012sub parenleft' @Uppercase [parenright parenright.case] by parenleft.case;\012sub braceleft' @Uppercase @Uppercase by braceleft.case;\012sub braceleft' @Uppercase [braceright braceright.case] by braceleft.case;\012sub bracketleft' @Uppercase @Uppercase by bracketleft.case;\012sub bracketleft' @Uppercase [bracketright bracketright.case] by bracketleft.case;\012sub guillemetleft' @Uppercase @Uppercase by guillemetleft.case;\012sub guillemetleft' @Uppercase [guillemetright guillemetright.case] by guillemetleft.case;\012\012sub @Uppercase @Uppercase parenright' by parenright.case;\012sub [parenleft parenleft.case] @Uppercase parenright' by parenright.case;\012sub @Uppercase @Uppercase braceright' by braceright.case;\012sub [braceleft braceleft.case] @Uppercase braceright' by braceright.case;\012sub @Uppercase @Uppercase bracketright' by bracketright.case;\012sub [bracketleft bracketleft.case] @Uppercase bracketright' by bracketright.case;\012sub @Uppercase @Uppercase guillemetright' by guillemetright.case;\012sub [guillemetleft guillemetleft.case] @Uppercase guillemetright' by guillemetright.case;\012\012sub @Uppercase exclamdown' by exclamdown.case;\012sub @Uppercase questiondown' by questiondown.case;\012\012sub @Uppercase periodcentered' @Uppercase by periodcentered.case;\012sub @Uppercase hyphen' @Uppercase by hyphen.case;\012sub @Uppercase endash' @Uppercase by endash.case;\012sub @Uppercase emdash' @Uppercase by emdash.case;\012\012sub @Uppercase periodcentered' @Uppercase by periodcentered.case;\012sub @Uppercase hyphen' @Uppercase by hyphen.case;\012sub @Uppercase endash' @Uppercase by endash.case;\012sub @Uppercase emdash' @Uppercase by emdash.case;\012\012sub at' @Digit by at.case;\012sub @Uppercase at' @Uppercase by at.case;\012sub copyright' @Uppercase @Uppercase by copyright.case;\012sub copyright' space @Uppercase @Uppercase by copyright.case;\012sub copyright' @Digit by copyright.case;\012sub copyright' space @Digit by copyright.case;\012\012sub I quotesingle' m by quoteright;\012sub y o u quotesingle' r e by quoteright;\012sub y o u quotesingle' l l by quoteright;\012sub w e quotesingle' r e by quoteright;\012sub I quotesingle' v e by quoteright;\012sub w e quotesingle' v e by quoteright;\012sub quotesingle' s space by quoteright;\012sub n quotesingle' t by quoteright;\012\012\012sub @Digit greater' @Digit by greater.case;\012sub @Digit less' @Digit  by less.case;\012sub @Uppercase greater' @Uppercase by greater.case;\012sub @Uppercase less' @Uppercase  by less.case;\012\012sub @Uppercase leftArrow' @Uppercase by leftArrow.case;\012sub @Uppercase space leftArrow' space @Uppercase by leftArrow.case;\012sub @Uppercase rightArrow' @Uppercase by rightArrow.case;\012sub @Uppercase space rightArrow' space @Uppercase by rightArrow.case;";
 name = calt;
 },
 {
@@ -25073,7 +25072,7 @@ unicode = 002E;
 },
 {
 glyphname = comma;
-lastChange = "2018-06-12 05:57:58 +0000";
+lastChange = "2018-07-19 07:52:39 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -33607,7 +33606,7 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "manrope-bold";
+value = "manrope-extrabold";
 }
 );
 interpolationWeight = 800;
@@ -33615,9 +33614,24 @@ instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 1;
 };
 isBold = 1;
+name = ExtraBold;
+weightClass = ExtraBold;
+widthClass = SemiCondensed;
+},
+{
+customParameters = (
+{
+name = fileName;
+value = "manrope-bold";
+}
+);
+interpolationWeight = 700;
+instanceInterpolations = {
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.83333;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.16667;
+};
 name = Bold;
 weightClass = Bold;
-widthClass = SemiCondensed;
 },
 {
 customParameters = (
@@ -33626,10 +33640,10 @@ name = fileName;
 value = "manrope-semibold";
 }
 );
-interpolationWeight = 650;
+interpolationWeight = 600;
 instanceInterpolations = {
-"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.75;
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.25;
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.66667;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.33333;
 };
 name = Semibold;
 weightClass = SemiBold;
@@ -33642,10 +33656,10 @@ name = fileName;
 value = "manrope-medium";
 }
 );
-interpolationWeight = 550;
+interpolationWeight = 500;
 instanceInterpolations = {
-"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.58333;
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.41667;
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.5;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.5;
 };
 name = Medium;
 weightClass = Medium;
@@ -33658,10 +33672,10 @@ name = fileName;
 value = "manrope-regular";
 }
 );
-interpolationWeight = 450;
+interpolationWeight = 400;
 instanceInterpolations = {
-"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.41667;
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.58333;
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.33333;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.66667;
 };
 name = Regular;
 widthClass = SemiCondensed;
@@ -33883,7 +33897,7 @@ semicolon = -90;
 "@MMK_R_S" = -20;
 "@MMK_R_a" = -45;
 "@MMK_R_c" = -45;
-"@MMK_R_comma" = -276;
+"@MMK_R_comma" = -60;
 "@MMK_R_e" = -45;
 "@MMK_R_g" = -45;
 "@MMK_R_i" = -20;
@@ -34456,7 +34470,7 @@ semicolon = -90;
 "@MMK_R_S" = -20;
 "@MMK_R_a" = -45;
 "@MMK_R_c" = -45;
-"@MMK_R_comma" = -276;
+"@MMK_R_comma" = -60;
 "@MMK_R_e" = -45;
 "@MMK_R_g" = -45;
 "@MMK_R_i" = -20;
@@ -34892,5 +34906,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
