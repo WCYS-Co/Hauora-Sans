@@ -1,9 +1,23 @@
 # Manrope Font
-Manrope font is an open-source modern sans-serif font family. Designed by Michael Sharanda in 2018. Supports most of Latin & Cyrillic languages.
+Manrope font is an open-source modern sans-serif font family. Designed by Michael Sharanda in 2018.
+
+## Features
+- Semi-condensed, clean, minimal sans-serif font
+- 7 weights
+- Comes with desktop and web-font formats (pixel-optimised)
+- Geometric Digits
+- Packed with OpenType features: Case Sensitive, Auto-Apostrophe, Ligatures, Icon-Ligatures, Tabular Figures
+- Supports most of Latin & Cyrillic languages:
+	- Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bosnian (Cyrillic), Bulgarian, Catalan, Chiga, Colognian, Cornish, Croatian, Czech, Danish, English, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, German, German (Switzerland), Gusii, Hungarian, Icelandic, Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi, Kabuverdianu, Kalenjin, Kinyarwanda, Latvian, Lithuanian, Low German, Lower Sorbian, Luo, Luxembourgish, Luyia, Macedonian, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Maori, Mongolian, Morisyen, North Ndebele, Northern Sami, Norwegian Bokmål, Norwegian Nynorsk, Nyankole, Oromo, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Samburu, Sango, Sangu, Scottish Gaelic, Sena, Serbian, Serbian (Latin), Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swahili (Congo - Kinshasa), Swedish, Swiss German, Taita, Teso, Turkish, Upper Sorbian, Vunjo, Welsh, Zulu
 
 ![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
 
 ## Changelog
+- v 1.005, July 20. Fixed:
+	- Kerning: between /V and /comma
+	- Auto-Apostrophe in "You’ll"
+	- Fixed appearance of /t_t ligature
+	- Added one more weight for more consistent interpolation distribution: 7 weights in total (800–200)
 - v 1.004, July 17. Fixed:
 	- Fixed alignment in Semicolon;
 	- Fixed shape: /K /k /N /two;
