@@ -1,5 +1,8 @@
 {
 .appVersion = "1131";
+DisplayStrings = (
+"/Tshe-cy Manrope"
+);
 classes = (
 {
 code = "";
@@ -7537,7 +7540,7 @@ unicode = 017B;
 },
 {
 glyphname = a;
-lastChange = "2018-07-25 14:28:32 +0000";
+lastChange = "2018-07-29 15:39:27 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -18259,7 +18262,7 @@ unicode = 0408;
 },
 {
 glyphname = "Tshe-cy";
-lastChange = "2018-06-29 15:15:08 +0000";
+lastChange = "2018-07-29 15:39:40 +0000";
 layers = (
 {
 components = (
@@ -18279,7 +18282,7 @@ nodes = (
 );
 }
 );
-width = 627;
+width = 617;
 },
 {
 components = (
@@ -34322,9 +34325,6 @@ quotedbl = -120;
 quotedblleft = -120;
 quotedblright = -120;
 };
-"@MMK_L_M" = {
-"@MMK_R_a" = -20;
-};
 "@MMK_L_O" = {
 "@MMK_R_A" = -20;
 "@MMK_R_T" = -20;
@@ -34899,9 +34899,6 @@ hyphen = -80;
 quotedbl = -120;
 quotedblleft = -120;
 quotedblright = -120;
-};
-"@MMK_L_M" = {
-"@MMK_R_a" = -20;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -20;
