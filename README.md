@@ -13,6 +13,12 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 ![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
 
 ## Changelog
+- v 1.1, July 29. Major update. Fixed:
+	- Shapes adjusted: /a /n /h /u /m /D /e /@ /& /N /t
+	- Kerning: /v and /comma, /e and /n, /f and /e /o, /e and /s, /y and /a, /A and /T, /k and /s, /R and Y, /I and /T, /S and /S, etc.
+	- Auto-Apostrophe in "em’"
+	- Letter space: /D, /e, /n, /m, /u, /h, /H etc.
+	- Added glyph: /nonbreakinghyphen
 - v 1.005, July 20. Fixed:
 	- Kerning: between /V and /comma
 	- Auto-Apostrophe in "You’ll"
