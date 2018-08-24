@@ -10,9 +10,9 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 - Supports most of Latin & Cyrillic languages:
 	- Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bosnian (Cyrillic), Bulgarian, Catalan, Chiga, Colognian, Cornish, Croatian, Czech, Danish, English, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, German, German (Switzerland), Gusii, Hungarian, Icelandic, Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi, Kabuverdianu, Kalenjin, Kinyarwanda, Latvian, Lithuanian, Low German, Lower Sorbian, Luo, Luxembourgish, Luyia, Macedonian, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Maori, Mongolian, Morisyen, North Ndebele, Northern Sami, Norwegian Bokmål, Norwegian Nynorsk, Nyankole, Oromo, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Samburu, Sango, Sangu, Scottish Gaelic, Sena, Serbian, Serbian (Latin), Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swahili (Congo - Kinshasa), Swedish, Swiss German, Taita, Teso, Turkish, Upper Sorbian, Vunjo, Welsh, Zulu
 
-![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
-
 ## Changelog
+- v 1.2, August 24. Fixed:
+	- Shapes adjusted: /s /e /h /n /u /N /w
 - v 1.1, July 29. Major update. Fixed:
 	- Shapes adjusted: /a /n /h /u /m /D /e /@ /& /N /t
 	- Kerning: /v and /comma, /e and /n, /f and /e /o, /e and /s, /y and /a, /A and /T, /k and /s, /R and Y, /I and /T, /S and /S, etc.
@@ -52,6 +52,8 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 	- Inconsistent thickness of /eth;
 - v 1.000, July 1
 	- First release;
+
+![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
 
 ## Future Plans
 - Test Cyrillic more.
