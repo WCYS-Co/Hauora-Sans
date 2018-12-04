@@ -2,7 +2,7 @@
 Manrope font is an open-source modern sans-serif font family. Designed by Michael Sharanda in 2018.
 
 ## Features
-- Semi-condensed, clean, minimal sans-serif font
+- Semi-condensed, clean, minimal sans-serif font family
 - 7 weights
 - Comes with desktop and web-font formats (pixel-optimised)
 - Geometric Digits
@@ -11,6 +11,11 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 	- Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bosnian (Cyrillic), Bulgarian, Catalan, Chiga, Colognian, Cornish, Croatian, Czech, Danish, English, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, German, German (Switzerland), Gusii, Hungarian, Icelandic, Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi, Kabuverdianu, Kalenjin, Kinyarwanda, Latvian, Lithuanian, Low German, Lower Sorbian, Luo, Luxembourgish, Luyia, Macedonian, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Maori, Mongolian, Morisyen, North Ndebele, Northern Sami, Norwegian Bokmål, Norwegian Nynorsk, Nyankole, Oromo, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Samburu, Sango, Sangu, Scottish Gaelic, Sena, Serbian, Serbian (Latin), Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swahili (Congo - Kinshasa), Swedish, Swiss German, Taita, Teso, Turkish, Upper Sorbian, Vunjo, Welsh, Zulu
 
 ## Changelog
+- v 2, December 4. A big update.
+	- Countless minor adjustments across all the glyphs;
+	- Much better Cyrillic;
+	- Many kerning adjustments;
+	- Adjusted digits shapes;
 - v 1.2, August 24. Fixed:
 	- Shapes adjusted: /s /e /h /n /u /N /w
 - v 1.1, July 29. Major update. Fixed:
@@ -53,7 +58,7 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 - v 1.000, July 1
 	- First release;
 
-![Screenshot](http://gent.media/assets/github.png "Manrope font screenshot")
+![Screenshot](http://gent.media/assets/github2.jpg "Manrope font screenshot")
 
 ## Future Plans
 - Test Cyrillic more.
