@@ -60,11 +60,6 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 
 ![Screenshot](http://gent.media/assets/github2.jpg "Manrope font screenshot")
 
-## Future Plans
-- Test Cyrillic more.
-- Collect feedback.
-- Start working on True Italics version.
-
 
 ## License
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
