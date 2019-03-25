@@ -11,6 +11,11 @@ Manrope font is an open-source modern sans-serif font family. Designed by Michae
 	- Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bosnian (Cyrillic), Bulgarian, Catalan, Chiga, Colognian, Cornish, Croatian, Czech, Danish, English, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, German, German (Switzerland), Gusii, Hungarian, Icelandic, Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi, Kabuverdianu, Kalenjin, Kinyarwanda, Latvian, Lithuanian, Low German, Lower Sorbian, Luo, Luxembourgish, Luyia, Macedonian, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Maori, Mongolian, Morisyen, North Ndebele, Northern Sami, Norwegian Bokmål, Norwegian Nynorsk, Nyankole, Oromo, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Samburu, Sango, Sangu, Scottish Gaelic, Sena, Serbian, Serbian (Latin), Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swahili (Congo - Kinshasa), Swedish, Swiss German, Taita, Teso, Turkish, Upper Sorbian, Vunjo, Welsh, Zulu
 
 ## Changelog
+- v 3, March 25. A big update.
+	- Countless glyph adjustments;
+	- Smooth corners;
+	- Improved Cyrillic;
+	- Countless minor bug fixes;
 - v 2, December 4. A big update.
 	- Countless minor adjustments across all the glyphs;
 	- Much better Cyrillic;
