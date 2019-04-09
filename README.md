@@ -63,7 +63,7 @@ Manrope font is an open-source modern sans-serif font family. Designed by Mikhai
 - v 1.000, July 1
 	- First release;
 
-![Screenshot](http://gent.media/assets/github3.jpg "Manrope font screenshot")
+![Screenshot](https://gent.media/assets/github3.jpg "Manrope font screenshot")
 
 
 ## License
