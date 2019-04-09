@@ -1,5 +1,5 @@
 # Manrope Font
-Manrope font is an open-source modern sans-serif font family. Designed by Michael Sharanda in 2018.
+Manrope font is an open-source modern sans-serif font family. Designed by Mikhail Sharanda in 2018.
 
 ## Features
 - Semi-condensed, clean, minimal sans-serif font family
