@@ -32444,7 +32444,7 @@ unicode = 00BF;
 },
 {
 glyphname = periodcentered;
-lastChange = "2019-11-12 02:41:12 +0000";
+lastChange = "2019-12-10 00:56:24 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -32452,22 +32452,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"302 275 OFFCURVE",
-"320 292 OFFCURVE",
-"320 315 CURVE SMOOTH",
-"320 338 OFFCURVE",
-"302 355 OFFCURVE",
-"281 355 CURVE SMOOTH",
-"258 355 OFFCURVE",
-"240 338 OFFCURVE",
-"240 315 CURVE SMOOTH",
-"240 292 OFFCURVE",
-"258 275 OFFCURVE",
-"281 275 CURVE SMOOTH"
+"122 275 OFFCURVE",
+"140 292 OFFCURVE",
+"140 315 CURVE SMOOTH",
+"140 338 OFFCURVE",
+"122 355 OFFCURVE",
+"101 355 CURVE SMOOTH",
+"78 355 OFFCURVE",
+"60 338 OFFCURVE",
+"60 315 CURVE SMOOTH",
+"60 292 OFFCURVE",
+"78 275 OFFCURVE",
+"101 275 CURVE SMOOTH"
 );
 }
 );
-width = 560;
+width = 200;
 },
 {
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -32475,22 +32475,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"364 235 OFFCURVE",
-"400 269 OFFCURVE",
-"400 315 CURVE SMOOTH",
-"400 361 OFFCURVE",
-"364 395 OFFCURVE",
-"322 395 CURVE SMOOTH",
-"276 395 OFFCURVE",
-"240 361 OFFCURVE",
-"240 315 CURVE SMOOTH",
-"240 269 OFFCURVE",
-"276 235 OFFCURVE",
-"322 235 CURVE SMOOTH"
+"184 235 OFFCURVE",
+"220 269 OFFCURVE",
+"220 315 CURVE SMOOTH",
+"220 361 OFFCURVE",
+"184 395 OFFCURVE",
+"142 395 CURVE SMOOTH",
+"96 395 OFFCURVE",
+"60 361 OFFCURVE",
+"60 315 CURVE SMOOTH",
+"60 269 OFFCURVE",
+"96 235 OFFCURVE",
+"142 235 CURVE SMOOTH"
 );
 }
 );
-width = 640;
+width = 280;
 },
 {
 associatedMasterId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -32967,7 +32967,7 @@ rightKerningGroup = question;
 },
 {
 glyphname = periodcentered.case;
-lastChange = "2019-11-12 02:41:12 +0000";
+lastChange = "2019-12-10 00:56:36 +0000";
 layers = (
 {
 components = (
@@ -32977,7 +32977,7 @@ transform = "{1, 0, 0, 1, 0, 45}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-width = 640;
+width = 280;
 },
 {
 components = (
@@ -32987,7 +32987,7 @@ transform = "{1, 0, 0, 1, 0, 45}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-width = 560;
+width = 200;
 }
 );
 leftMetricsKey = periodcentered;
@@ -44825,5 +44825,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 4;
-versionMinor = 0;
+versionMinor = 1;
 }
