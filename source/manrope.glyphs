@@ -53,7 +53,7 @@ name = "Variable Font Origin";
 value = "0608CAE3-8763-4CD8-82BF-07EB72319566";
 }
 );
-date = "2020-03-14 02:31:01 +0000";
+date = "2020-03-18 04:50:03 +0000";
 designer = "Mikhail Sharanda";
 designerURL = "http://gent.media";
 familyName = Manrope;
@@ -20149,7 +20149,7 @@ unicode = 007A;
 },
 {
 glyphname = zacute;
-lastChange = "2020-03-10 04:36:07 +0000";
+lastChange = "2020-03-18 04:48:33 +0000";
 layers = (
 {
 components = (
@@ -20158,7 +20158,7 @@ name = z;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 152, -450}";
+transform = "{1, 0, 0, 1, 152, -360}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -20171,7 +20171,7 @@ name = z;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 22, -450}";
+transform = "{1, 0, 0, 1, 22, -360}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -48846,8 +48846,8 @@ quoteright = -160;
 "@MMK_R_parenright" = -120;
 };
 "@MMK_L_E" = {
-"@MMK_R_O" = -60;
 "@MMK_R_C" = -50;
+"@MMK_R_O" = -60;
 "@MMK_R_S" = -80;
 };
 "@MMK_L_G" = {
@@ -49171,11 +49171,11 @@ quoteright = -40;
 "@MMK_R_O" = -120;
 "@MMK_R_S" = -120;
 "@MMK_R_a" = -40;
+"@MMK_R_j" = 60;
 "@MMK_R_o" = -80;
 "@MMK_R_q" = -80;
 "@MMK_R_s" = -80;
 seven = 80;
-"@MMK_R_j" = 60;
 };
 "@MMK_L_parenright" = {
 "@MMK_R_v" = -80;
@@ -49468,8 +49468,8 @@ quoteright = -160;
 "@MMK_R_parenright" = -120;
 };
 "@MMK_L_E" = {
-"@MMK_R_O" = -60;
 "@MMK_R_C" = -50;
+"@MMK_R_O" = -60;
 };
 "@MMK_L_G" = {
 "@MMK_R_A" = -40;
@@ -49802,11 +49802,11 @@ quoteright = -40;
 "@MMK_R_G" = 0;
 "@MMK_R_O" = -100;
 "@MMK_R_a" = -40;
+"@MMK_R_j" = 60;
 "@MMK_R_o" = -80;
 "@MMK_R_q" = -80;
 "@MMK_R_s" = -80;
 "@MMK_R_y" = -60;
-"@MMK_R_j" = 60;
 };
 "@MMK_L_q" = {
 "@MMK_R_Y" = -80;
@@ -50053,5 +50053,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 4;
-versionMinor = 500;
+versionMinor = 501;
 }
