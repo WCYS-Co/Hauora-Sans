@@ -13,6 +13,12 @@ Preview, download & test: http://manropefont.com/
 	- Albanian, Belarusian, Bosnian, Bulgarian, Catalan, Croatian, Czech, Danish, English, Estonian, Filipino, Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Mongolian, Norwegian, Polish, Portuguese, Romanian, Russian, Scottish Gaelic, Serbian, Slovak, Slovenian, liish, Swahili, Swedish, Taita, Turkish, Welsh, Zulu
 
 ## Changelog
+- v 4.5 / March 14, 2020
+	- Vietnamese support;
+	- Esperanto support;
+	- Fixed Greek I with an accent;
+	- Updated Latin marks;
+	- Added currencies: ₣, ₩, ₹, ₱, ₪, ₺, ₮, ₿;
 - v 4 / December 4, 2019
 	- Variable format;
 	- Greek support;
