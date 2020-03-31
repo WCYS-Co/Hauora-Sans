@@ -1,5 +1,9 @@
 {
 .appVersion = "1286";
+DisplayStrings = (
+"/hungarumlautcomb/uhungarumlaut",
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
+);
 classes = (
 {
 automatic = 1;
@@ -46172,54 +46176,34 @@ unicode = 0301;
 {
 export = 0;
 glyphname = hungarumlautcomb;
-lastChange = "2020-03-14 02:15:30 +0000";
+lastChange = "2020-03-31 10:08:30 +0000";
 layers = (
 {
-layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"737 1830 LINE",
-"649 1830 LINE",
-"573 1590 LINE",
-"661 1590 LINE"
-);
+name = acute;
+transform = "{1, 0, 0, 1, 198, 0}";
 },
 {
-closed = 1;
-nodes = (
-"387 1830 LINE",
-"299 1830 LINE",
-"223 1590 LINE",
-"311 1590 LINE"
-);
+name = acute;
+transform = "{1, 0, 0, 1, -152, 0}";
 }
 );
+layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 width = 960;
 },
 {
-layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"956 1832 LINE",
-"688 1832 LINE",
-"612 1592 LINE",
-"880 1592 LINE"
-);
+name = acute;
+transform = "{1, 0, 0, 1, 202, 0}";
 },
 {
-closed = 1;
-nodes = (
-"532 1832 LINE",
-"264 1832 LINE",
-"188 1592 LINE",
-"456 1592 LINE"
-);
+name = acute;
+transform = "{1, 0, 0, 1, -222, 0}";
 }
 );
+layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
 width = 1144;
 },
 {
