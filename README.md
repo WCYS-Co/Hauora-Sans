@@ -1,7 +1,7 @@
-# Manrope Font
-Manrope font is an open-source modern sans-serif font family. Designed by Mikhail Sharanda in 2018-2019.
+# Hauora Sans
+Hauora is an open-source sans-serif font family. Hauora is derived from [Manrope](https://manropefont.com/) — designed by [@sharanda](https://github.com/sharanda) — and modified by [WCYS](https://wayneshih.com/) for the [Tiaki Hauora Project](https://github.com/TiakiApp). 
 
-Preview, download & test: http://manropefont.com/
+![]()
 
 ## Features
 - Semi-condensed, clean, minimal sans-serif font family
@@ -12,35 +12,10 @@ Preview, download & test: http://manropefont.com/
 - Supports most of Latin & Cyrillic languages:
 	- Albanian, Belarusian, Bosnian, Bulgarian, Catalan, Croatian, Czech, Danish, English, Estonian, Filipino, Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Mongolian, Norwegian, Polish, Portuguese, Romanian, Russian, Scottish Gaelic, Serbian, Slovak, Slovenian, liish, Swahili, Swedish, Taita, Turkish, Welsh, Zulu
 
-## Changelog
-- v 4.5 / March 14, 2020
-	- Vietnamese support;
-	- Esperanto support;
-	- Fixed Greek I with an accent;
-	- Updated Latin marks;
-	- Added currencies: ₣, ₩, ₹, ₱, ₪, ₺, ₮, ₿;
-- v 4 / December 4, 2019
-	- Variable format;
-	- Greek support;
-	- Improved Cyrillic;
-	- Countless minor adjustments;
-	- NOTE: adjusted 'units per em' setting, which made line-height slightly bigger than before;
-	- NOTE: 'thin' weight has been renamed to 'ExtraLight';
-- v 3 / March 25, 2019
-- v 2 / December 4, 2018
-- v 1.2 / August 24, 2018
-- v 1.1 / July 29, 2018
-- v 1 / July 1, 2018
-	- First release;
-
-
 ## License
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is available with an FAQ at http://scripts.sil.org/OFL
-
-# 🤜 🤛
-Special thanks to [Mirko Velimirovic](https://mirkovelimirovic.com/) for contribution.
 
 — —
 
