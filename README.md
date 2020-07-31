@@ -41,3 +41,7 @@ This license is available with an FAQ at http://scripts.sil.org/OFL
 
 # 🤜 🤛
 Special thanks to [Mirko Velimirovic](https://mirkovelimirovic.com/) for contribution.
+
+— —
+
+[![UOA](docs/uoa.svg)](http://engineering.auckland.ac.nz/)
