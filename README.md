@@ -17,10 +17,10 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is available with an FAQ at http://scripts.sil.org/OFL
 
+— —
+
 ### Tiaki Hauora Project
 
 [Tiaki Hauora](https://github.com/TiakiApp) is a BE(Hons) research project of [Preet Patel](https://github.com/PreetPatel) and [Marc Burgess](https://github.com/margeobur). 
-
-— —
 
 [![UOA](docs/uoa.svg)](http://engineering.auckland.ac.nz/)
