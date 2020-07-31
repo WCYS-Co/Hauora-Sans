@@ -16,7 +16,7 @@ code = "zero one two three four five six seven eight nine";
 name = Digit;
 }
 );
-copyright = "Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)";
+copyright = "Copyright (c) 2020 Wayne Shih";
 customParameters = (
 {
 name = license;
@@ -28,7 +28,7 @@ value = "http://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
-value = SHMI;
+value = WCYS;
 },
 {
 name = fsType;
@@ -55,12 +55,16 @@ Tag = wght;
 {
 name = "Variable Font Origin";
 value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
+},
+{
+name = description;
+value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
 }
 );
-date = "2020-03-29 15:13:16 +0000";
-designer = "Mikhail Sharanda";
-designerURL = "http://gent.media";
-familyName = Manrope;
+date = "2020-07-31 07:52:50 +0000";
+designer = "Wayne Shih";
+designerURL = "https://wayneshih.com";
+familyName = Hauora;
 featurePrefixes = (
 {
 automatic = 1;
@@ -49997,8 +50001,8 @@ two = {
 };
 };
 };
-manufacturer = "Mikhail Sharanda";
-manufacturerURL = "http://gent.media";
+manufacturer = WCYS;
+manufacturerURL = "https://github.com/wayne-shih";
 unitsPerEm = 2000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -50006,6 +50010,6 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 };
-versionMajor = 4;
-versionMinor = 502;
+versionMajor = 0;
+versionMinor = 1;
 }
