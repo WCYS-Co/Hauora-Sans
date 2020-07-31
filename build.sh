@@ -10,17 +10,17 @@ mkdir -p ./gf/static/
 echo "Made font directories"
  
 echo "Generating Statics"
-fontmake -g source/manrope.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./gf/static/
+fontmake -g source/hauora.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./gf/static/
 echo "Made Statics"
 
 echo "Generating VFs"
-fontmake -g source/manrope.glyphs -o variable --output-path ./gf/Manrope\[wght\].ttf
+fontmake -g source/hauora.glyphs -o variable --output-path ./gf/hauora\[wght\].ttf
 echo "Made VF"
 
 cd ./gf/
 
 echo "adding dummy dsig"
-gftools fix-dsig Manrope\[wght\].ttf --autofix
+gftools fix-dsig hauora\[wght\].ttf --autofix
 echo "dummy dsig added"
 
 cd ..
