@@ -14,7 +14,7 @@ DisplayStrings = (
 "?",
 "/dotaccentcomb",
 "/dieresiscomb",
-"/dieresistonos",
+"./dieresistonos",
 "/dotbelowcomb",
 "/commaaccentcomb",
 "/apostrophemod",
@@ -47393,7 +47393,7 @@ unicode = 0384;
 },
 {
 glyphname = dieresistonos;
-lastChange = "2020-03-29 04:05:03 +0000";
+lastChange = "2020-08-02 03:12:45 +0000";
 layers = (
 {
 components = (
@@ -47430,29 +47430,17 @@ components = (
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 139, -360}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 600, 1309}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 162, 1309}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-paths = (
-{
-closed = 1;
-nodes = (
-"880 1320 LINE",
-"880 1440 LINE",
-"760 1440 LINE",
-"760 1320 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"442 1320 LINE",
-"442 1440 LINE",
-"322 1440 LINE",
-"322 1320 LINE"
-);
-}
-);
 width = 1200;
 }
 );
