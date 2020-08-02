@@ -23,7 +23,13 @@ DisplayStrings = (
 "/gravecomb",
 "/acutecomb",
 "/hungarumlautcomb",
-"/brevecomb_acutecomb"
+"/brevecomb_acutecomb",
+"/fi",
+i,
+j,
+"/f_f_l",
+"/fl",
+"/t_t.liga"
 );
 classes = (
 {
@@ -14030,26 +14036,19 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2020-08-02 02:39:13 +0000";
+lastChange = "2020-08-02 03:10:17 +0000";
 layers = (
 {
 components = (
 {
 name = idotless;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, -18, 1309}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-paths = (
-{
-closed = 1;
-nodes = (
-"244 1312 LINE",
-"244 1440 LINE",
-"160 1440 LINE",
-"160 1312 LINE"
-);
-}
-);
 width = 404;
 },
 {
@@ -14591,9 +14590,15 @@ unicode = 0129;
 },
 {
 glyphname = j;
-lastChange = "2020-03-14 00:18:01 +0000";
+lastChange = "2020-08-02 03:10:33 +0000";
 layers = (
 {
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 28, 1309}";
+}
+);
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 paths = (
 {
@@ -14611,15 +14616,6 @@ nodes = (
 "48 -394 CURVE SMOOTH",
 "-20 -394 LINE",
 "-20 -480 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"290 1312 LINE",
-"290 1440 LINE",
-"206 1440 LINE",
-"206 1312 LINE"
 );
 }
 );
