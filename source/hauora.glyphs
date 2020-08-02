@@ -2,7 +2,8 @@
 .appVersion = "1131";
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
+K
 );
 classes = (
 {
@@ -192,6 +193,7 @@ name = ExtraLight;
 userData = {
 GSCornerRadius = 205;
 };
+visible = 1;
 weight = Light;
 weightValue = 200;
 xHeight = 1080;
@@ -247,6 +249,7 @@ name = ExtraBold;
 userData = {
 GSCornerRadius = 15;
 };
+visible = 1;
 weight = Bold;
 weightValue = 800;
 xHeight = 1080;
@@ -4316,16 +4319,35 @@ unicode = 0134;
 },
 {
 glyphname = K;
-lastChange = "2020-08-02 04:53:44 +0000";
+lastChange = "2020-08-02 05:34:19 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{2, 3}";
+target = "{2, 0}";
+type = Stem;
+}
+);
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 paths = (
 {
 closed = 1;
 nodes = (
-"178 637 LINE",
-"209 549 LINE",
+"180 639 LINE",
+"180 518 LINE",
 "1052 1440 LINE",
 "937 1440 LINE"
 );
@@ -4335,7 +4357,7 @@ closed = 1;
 nodes = (
 "1116 0 LINE",
 "460 828 LINE",
-"367 805 LINE",
+"386 782 LINE",
 "1001 0 LINE"
 );
 },
@@ -4352,22 +4374,31 @@ nodes = (
 width = 1116;
 },
 {
+hints = (
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = down;
+type = TopGhost;
+},
+{
+place = "{270, 2}";
+type = Stem;
+}
+);
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
 paths = (
 {
 closed = 1;
 nodes = (
-"402 0 LINE",
-"402 1440 LINE",
-"140 1440 LINE",
-"140 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"174 588 LINE",
-"381 444 LINE",
+"273 696 LINE",
+"271 323 LINE",
 "1292 1440 LINE",
 "960 1440 LINE"
 );
@@ -4375,10 +4406,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"987 0 LINE",
 "1330 0 LINE",
-"677 790 LINE",
-"334 790 LINE"
+"676 799 LINE",
+"423 696 LINE",
+"993 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"402 0 LINE",
+"402 1440 LINE",
+"140 1440 LINE",
+"140 0 LINE"
 );
 }
 );
@@ -49928,10 +49968,12 @@ manufacturerURL = "https://github.com/wayne-shih";
 unitsPerEm = 2000;
 userData = {
 GSDimensionPlugin.Dimensions = {
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = {
+};
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = {
 };
 };
 };
 versionMajor = 0;
-versionMinor = 2;
+versionMinor = 3;
 }
