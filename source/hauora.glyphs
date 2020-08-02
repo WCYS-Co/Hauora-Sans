@@ -2,10 +2,7 @@
 .appVersion = "1131";
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
-"/Dcroat",
-Gustan,
-O
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
 );
 classes = (
 {
@@ -3163,7 +3160,7 @@ unicode = 0046;
 },
 {
 glyphname = G;
-lastChange = "2020-08-02 05:07:43 +0000";
+lastChange = "2020-08-02 05:08:48 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -6528,7 +6525,7 @@ unicode = 00DE;
 },
 {
 glyphname = Q;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 05:08:27 +0000";
 layers = (
 {
 components = (
