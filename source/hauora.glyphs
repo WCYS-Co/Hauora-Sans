@@ -3,7 +3,8 @@
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
 "/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
-"Tamaki,."
+KORERO,
+K
 );
 classes = (
 {
@@ -4317,7 +4318,7 @@ unicode = 0134;
 },
 {
 glyphname = K;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 04:10:24 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -4325,14 +4326,25 @@ paths = (
 {
 closed = 1;
 nodes = (
-"224 0 LINE",
-"224 752 LINE",
-"1000 0 LINE",
-"1116 0 LINE",
-"346 752 LINE",
+"178 707 LINE",
+"209 619 LINE",
 "1052 1440 LINE",
-"936 1440 LINE",
-"224 752 LINE",
+"937 1440 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1116 0 LINE",
+"407 813 LINE",
+"292 813 LINE",
+"1001 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"224 0 LINE",
 "224 1440 LINE",
 "140 1440 LINE",
 "140 0 LINE"
@@ -6571,7 +6583,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2020-03-09 05:30:34 +0000";
+lastChange = "2020-08-02 04:15:38 +0000";
 layers = (
 {
 background = {
@@ -14010,7 +14022,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2020-08-02 03:51:36 +0000";
+lastChange = "2020-08-02 04:10:33 +0000";
 layers = (
 {
 components = (
