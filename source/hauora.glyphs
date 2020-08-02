@@ -3,7 +3,8 @@
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
 "/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
-K
+K,
+k
 );
 classes = (
 {
@@ -14772,7 +14773,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2020-08-02 04:50:46 +0000";
+lastChange = "2020-08-02 05:38:10 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -14789,7 +14790,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"155 509 LINE",
+"176 528 LINE",
 "176 421 LINE",
 "890 1080 LINE",
 "774 1080 LINE"
@@ -14800,7 +14801,7 @@ closed = 1;
 nodes = (
 "795 0 LINE",
 "912 0 LINE",
-"386 622 LINE",
+"366 646 LINE",
 "295 591 LINE"
 );
 }
@@ -14822,10 +14823,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"355 313 LINE",
+"269 563 LINE",
+"269 225 LINE",
 "1104 1080 LINE",
-"787 1080 LINE",
-"139 434 LINE"
+"787 1080 LINE"
 );
 },
 {
@@ -14833,7 +14834,7 @@ closed = 1;
 nodes = (
 "847 0 LINE",
 "1137 0 LINE",
-"647 656 LINE",
+"582 743 LINE",
 "406 591 LINE"
 );
 }
