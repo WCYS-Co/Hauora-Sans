@@ -2,9 +2,7 @@
 .appVersion = "1131";
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
-K,
-k
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
 );
 classes = (
 {
