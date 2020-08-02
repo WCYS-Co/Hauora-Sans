@@ -4,7 +4,8 @@ DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
 "/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
 "/Dcroat",
-Gustan
+Gustan,
+O
 );
 classes = (
 {
@@ -3162,7 +3163,7 @@ unicode = 0046;
 },
 {
 glyphname = G;
-lastChange = "2020-08-02 05:02:06 +0000";
+lastChange = "2020-08-02 05:07:43 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -3231,10 +3232,10 @@ nodes = (
 "484 1218 OFFCURVE",
 "758 1214 CURVE SMOOTH",
 "942 1212 OFFCURVE",
-"1060 1104 OFFCURVE",
-"1112 936 CURVE",
-"1390 976 LINE",
-"1318 1290 OFFCURVE",
+"1045 1110 OFFCURVE",
+"1097 975 CURVE",
+"1375 1015 LINE",
+"1303 1295 OFFCURVE",
 "1110 1470 OFFCURVE",
 "740 1470 CURVE SMOOTH",
 "364 1470 OFFCURVE",
