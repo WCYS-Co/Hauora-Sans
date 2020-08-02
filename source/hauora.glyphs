@@ -30,7 +30,10 @@ j,
 "/fl",
 "/t_t.liga",
 "/dieresistonos",
-"!"
+"!",
+"/dotaccent",
+"¨",
+"Ä"
 );
 classes = (
 {
@@ -45634,7 +45637,7 @@ unicode = 02BC;
 },
 {
 glyphname = dieresis;
-lastChange = "2020-03-24 16:17:08 +0000";
+lastChange = "2020-08-02 03:32:28 +0000";
 layers = (
 {
 components = (
@@ -45659,7 +45662,7 @@ unicode = 00A8;
 },
 {
 glyphname = dotaccent;
-lastChange = "2020-03-24 16:17:08 +0000";
+lastChange = "2020-08-02 03:33:14 +0000";
 layers = (
 {
 components = (
@@ -45960,7 +45963,7 @@ unicode = 02DB;
 {
 export = 0;
 glyphname = dieresiscomb;
-lastChange = "2020-08-02 03:00:57 +0000";
+lastChange = "2020-08-02 03:34:34 +0000";
 layers = (
 {
 components = (
@@ -45977,27 +45980,17 @@ layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 width = 960;
 },
 {
-layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"904 1592 LINE",
-"904 1832 LINE",
-"664 1832 LINE",
-"664 1592 LINE"
-);
+name = period;
+transform = "{1, 0, 0, 1, 462, 1576}";
 },
 {
-closed = 1;
-nodes = (
-"480 1592 LINE",
-"480 1832 LINE",
-"240 1832 LINE",
-"240 1592 LINE"
-);
+name = period;
+transform = "{1, 0, 0, 1, 40, 1576}";
 }
 );
+layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
 width = 1144;
 },
 {
@@ -46021,7 +46014,7 @@ unicode = 0308;
 {
 export = 0;
 glyphname = dotaccentcomb;
-lastChange = "2020-08-02 02:59:59 +0000";
+lastChange = "2020-08-02 03:33:40 +0000";
 layers = (
 {
 components = (
@@ -46034,18 +46027,13 @@ layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 width = 600;
 },
 {
-layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"512 1648 LINE",
-"512 1920 LINE",
-"240 1920 LINE",
-"240 1648 LINE"
-);
+name = period;
+transform = "{1, 0, 0, 1, 57, 1648}";
 }
 );
+layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
 width = 752;
 },
 {
