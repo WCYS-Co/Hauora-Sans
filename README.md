@@ -1,4 +1,7 @@
 # Hauora Sans
+
+[![DOI](https://zenodo.org/badge/283670993.svg)](https://zenodo.org/badge/latestdoi/283670993)
+
 Hauora is an open-source sans-serif font family. Hauora is derived from [Manrope](https://manropefont.com/) — designed by [@sharanda](https://github.com/sharanda) — and modified by [WCYS](https://wayneshih.com/) for the [Tiaki Hauora Project](#tiaki-hauora-project). 
 
 ![Hauora Sans](docs/HS_OpenGraph.svg)
