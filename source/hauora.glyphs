@@ -61,7 +61,7 @@ name = description;
 value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
 }
 );
-date = "2020-07-31 07:52:50 +0000";
+date = "2020-08-02 07:40:34 +0000";
 designer = "Wayne Shih";
 designerURL = "https://wayneshih.com";
 familyName = Hauora;
@@ -49973,6 +49973,6 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 };
-versionMajor = 0;
-versionMinor = 3;
+versionMajor = 1;
+versionMinor = 0;
 }
