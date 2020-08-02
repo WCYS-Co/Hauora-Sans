@@ -3,8 +3,10 @@
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
 "/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
-KORERO,
-K
+PiggieReg,
+K,
+R,
+P
 );
 classes = (
 {
@@ -6583,7 +6585,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2020-08-02 04:15:38 +0000";
+lastChange = "2020-08-02 04:34:23 +0000";
 layers = (
 {
 background = {
@@ -6646,14 +6648,25 @@ paths = (
 {
 closed = 1;
 nodes = (
+"1121 0 LINE",
+"768 682 LINE",
+"670 682 LINE",
+"1021 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "224 0 LINE",
-"224 576 LINE",
-"774 576 LINE",
-"790 590 LINE",
-"982 632 OFFCURVE",
-"1102 802 OFFCURVE",
-"1102 1008 CURVE SMOOTH",
-"1102 1224 OFFCURVE",
+"224 636 LINE",
+"670 636 LINE SMOOTH",
+"698 636 OFFCURVE",
+"726 638 OFFCURVE",
+"762 644 CURVE SMOOTH",
+"970 679 OFFCURVE",
+"1102 842 OFFCURVE",
+"1102 1038 CURVE SMOOTH",
+"1102 1234 OFFCURVE",
 "970 1400 OFFCURVE",
 "762 1432 CURVE SMOOTH",
 "726 1438 OFFCURVE",
@@ -6666,30 +6679,30 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1142 0 LINE",
-"830 640 LINE",
-"758 586 LINE",
-"1042 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "224 1356 LINE",
 "670 1356 LINE SMOOTH",
 "692 1356 OFFCURVE",
 "726 1354 OFFCURVE",
 "758 1348 CURVE SMOOTH",
 "924 1316 OFFCURVE",
-"1012 1170 OFFCURVE",
-"1012 1008 CURVE SMOOTH",
-"1012 846 OFFCURVE",
-"924 700 OFFCURVE",
-"758 668 CURVE SMOOTH",
-"726 662 OFFCURVE",
-"692 660 OFFCURVE",
-"670 660 CURVE SMOOTH",
-"224 660 LINE"
+"1012 1180 OFFCURVE",
+"1012 1038 CURVE SMOOTH",
+"1012 896 OFFCURVE",
+"924 759 OFFCURVE",
+"758 728 CURVE SMOOTH",
+"726 722 OFFCURVE",
+"692 720 OFFCURVE",
+"670 720 CURVE SMOOTH",
+"224 720 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"670 636 LINE",
+"733 636 LINE",
+"733 682 LINE",
+"670 682 LINE"
 );
 }
 );
@@ -14022,7 +14035,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2020-08-02 04:10:33 +0000";
+lastChange = "2020-08-02 04:32:12 +0000";
 layers = (
 {
 components = (
