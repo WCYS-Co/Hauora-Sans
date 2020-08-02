@@ -2,7 +2,16 @@
 .appVersion = "1131";
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
+"Tamaki,.",
+",",
+";",
+".",
+"·",
+"\"",
+"/ellipsis",
+"!",
+"?"
 );
 classes = (
 {
@@ -14009,7 +14018,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2020-03-13 23:44:32 +0000";
+lastChange = "2020-08-02 02:39:13 +0000";
 layers = (
 {
 components = (
@@ -35819,7 +35828,7 @@ rightMetricsKey = nine;
 },
 {
 glyphname = period;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:39:02 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -35827,10 +35836,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"280 0 LINE",
-"280 120 LINE",
-"160 120 LINE",
-"160 0 LINE"
+"261 -6 OFFCURVE",
+"294 26 OFFCURVE",
+"294 67 CURVE SMOOTH",
+"294 109 OFFCURVE",
+"261 141 OFFCURVE",
+"220 141 CURVE SMOOTH",
+"178 141 OFFCURVE",
+"146 109 OFFCURVE",
+"146 67 CURVE SMOOTH",
+"146 26 OFFCURVE",
+"178 -6 OFFCURVE",
+"220 -6 CURVE SMOOTH"
 );
 }
 );
@@ -35873,7 +35890,7 @@ unicode = 002E;
 },
 {
 glyphname = comma;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:42:52 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -35881,17 +35898,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"184 -194 OFFCURVE",
-"240 -148 OFFCURVE",
-"240 -60 CURVE SMOOTH",
-"240 180 LINE",
-"120 180 LINE",
-"120 0 LINE",
-"186 0 LINE",
-"186 -64 OFFCURVE",
-"196 -130 OFFCURVE",
-"126 -126 CURVE",
-"120 -178 LINE"
+"84 -240 LINE",
+"150 -240 LINE",
+"273 180 LINE",
+"180 180 LINE"
 );
 }
 );
@@ -35994,13 +36004,13 @@ unicode = 003A;
 },
 {
 glyphname = semicolon;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:44:04 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, 100, 0}";
+transform = "{1, 0, 0, 1, 88, 0}";
 },
 {
 name = period;
@@ -36105,27 +36115,20 @@ unicode = 2026;
 },
 {
 glyphname = exclam;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:55:12 +0000";
 layers = (
 {
 components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 62, 0}";
+},
 {
 name = idotless;
 transform = "{1, 0, 0, 1, 80, 360}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-paths = (
-{
-closed = 1;
-nodes = (
-"324 0 LINE",
-"324 128 LINE",
-"240 128 LINE",
-"240 0 LINE"
-);
-}
-);
 width = 564;
 },
 {
@@ -36214,9 +36217,15 @@ unicode = 00A1;
 },
 {
 glyphname = question;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:56:24 +0000";
 layers = (
 {
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 261, 0}";
+}
+);
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 paths = (
 {
@@ -36266,15 +36275,6 @@ nodes = (
 "432 570 OFFCURVE",
 "436 506 OFFCURVE",
 "436 394 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"526 0 LINE",
-"526 150 LINE",
-"436 150 LINE",
-"436 0 LINE"
 );
 }
 );
@@ -36411,7 +36411,7 @@ unicode = 00BF;
 },
 {
 glyphname = periodcentered;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:43:39 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -36479,7 +36479,7 @@ unicode = 00B7;
 },
 {
 glyphname = bullet;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:43:33 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -38393,7 +38393,7 @@ unicode = 203A;
 },
 {
 glyphname = quotedbl;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2020-08-02 02:44:40 +0000";
 layers = (
 {
 components = (
