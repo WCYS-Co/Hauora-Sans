@@ -10,7 +10,6 @@ DisplayStrings = (
 "·",
 "\"",
 "/ellipsis",
-"!",
 "?",
 "/dotaccentcomb",
 "/dieresiscomb",
@@ -30,7 +29,8 @@ j,
 "/f_f_l",
 "/fl",
 "/t_t.liga",
-"/dieresistonos"
+"/dieresistonos",
+"!"
 );
 classes = (
 {
@@ -36125,7 +36125,7 @@ unicode = 2026;
 },
 {
 glyphname = exclam;
-lastChange = "2020-08-02 02:55:12 +0000";
+lastChange = "2020-08-02 03:29:50 +0000";
 layers = (
 {
 components = (
@@ -36144,22 +36144,15 @@ width = 564;
 {
 components = (
 {
+name = period;
+transform = "{1, 0, 0, 1, 56, 0}";
+},
+{
 name = idotless;
-transform = "{1, 0, 0, 1, 80, 360}";
+transform = "{1, 0, 0, 0.94497, 80, 420}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-paths = (
-{
-closed = 1;
-nodes = (
-"512 0 LINE",
-"512 240 LINE",
-"240 240 LINE",
-"240 0 LINE"
-);
-}
-);
 width = 752;
 },
 {
