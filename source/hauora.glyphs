@@ -1,8 +1,9 @@
 {
-.appVersion = "1131";
+.appVersion = "1346";
 DisplayStrings = (
 "/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
+"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut",
+"/commaaccentcomb"
 );
 classes = (
 {
@@ -46897,26 +46898,36 @@ unicode = 0323;
 {
 export = 0;
 glyphname = commaaccentcomb;
-lastChange = "2020-08-02 03:41:40 +0000";
+lastChange = "2020-09-28 06:01:35 +0000";
 layers = (
 {
-components = (
+layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
+paths = (
 {
-name = gravecomb;
-transform = "{-1, 0, 0, 1, 737, -2130}";
+closed = 1;
+nodes = (
+"382 -240 LINE",
+"286 -510 LINE",
+"220 -510 LINE",
+"286 -240 LINE"
+);
 }
 );
-layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
 width = 600;
 },
 {
-components = (
+layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
+paths = (
 {
-name = acutecomb;
-transform = "{1, 0, 0, 1, -293, -2130}";
+closed = 1;
+nodes = (
+"497 -150 LINE",
+"331 -540 LINE",
+"161 -540 LINE",
+"240 -150 LINE"
+);
 }
 );
-layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
 width = 736;
 },
 {
@@ -49974,5 +49985,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
