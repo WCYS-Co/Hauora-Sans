@@ -1,0 +1,49 @@
+name: Build CI — static, variable, web fonts
+
+on:
+  pull_request:
+    branches: [ master ]
+    types: [closed]
+    if: github.event.pull_request.merged == 'true'
+      
+jobs:
+  static-font-ci-job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    name: Build & push
+    steps:
+      - name: Check out Hauora Sans source repository
+        uses: actions/checkout@v2
+      - name: Set up Python v${{ matrix.python-version }} environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Python build dependency cache lookup
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          # Check for requirements file cache hit
+          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      - name: Install Python build dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          update-wheel: "true"
+          update-setuptools: "true"
+#
+      - name: Build static fonts
+        run: sources/build-statics.sh
+      - name: Build variable fonts
+        run: sources/build-vf.sh
+      - name: Build web fonts
+        run: sources/build-webfonts.sh
+#
+      - name: Push fonts
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "chore: build fonts (#${{ github.event.pull_request.number }})"
+          git push origin master
