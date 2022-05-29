@@ -49878,8 +49878,8 @@ two = {
 };
 };
 };
-manufacturer = WCYS;
-manufacturerURL = "https://github.com/wayne-shih";
+manufacturer = "WCYS & Co.";
+manufacturerURL = "https://wcys.co";
 unitsPerEm = 2000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -49890,5 +49890,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 2;
 }
