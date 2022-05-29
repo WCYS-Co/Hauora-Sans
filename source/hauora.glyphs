@@ -57,7 +57,7 @@ Tag = wght;
 );
 }
 );
-date = "2020-08-02 07:40:34 +0000";
+date = "2022-05-29 10:34:28 +0000";
 designer = "Wayne Shih";
 designerURL = "https://wayneshih.com";
 familyName = Hauora;
@@ -49787,5 +49787,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
