@@ -46078,17 +46078,17 @@ unicode = 02DB;
 {
 export = 0;
 glyphname = dieresiscomb;
-lastChange = "2020-08-02 03:34:34 +0000";
+lastChange = "2022-05-29 09:32:59 +0000";
 layers = (
 {
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 80, 1673}";
+transform = "{1, 0, 0, 1, 440, 1673}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 440, 1673}";
+transform = "{1, 0, 0, 1, 80, 1673}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
