@@ -1,9 +1,5 @@
 {
-.appVersion = "1131";
-DisplayStrings = (
-"/hungarumlautcomb/uhungarumlaut",
-"/Ohungarumlaut/Uhungarumlaut/ohungarumlaut/uhungarumlaut"
-);
+.appVersion = "3108";
 classes = (
 {
 automatic = 1;
@@ -19,18 +15,6 @@ name = Digit;
 copyright = "Copyright (c) 2020 Wayne Shih";
 customParameters = (
 {
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = WCYS;
-},
-{
 name = fsType;
 value = (
 );
@@ -44,6 +28,26 @@ name = blueScale;
 value = 0.03796;
 },
 {
+name = "Variable Font Origin";
+value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = WCYS;
+},
+{
+name = description;
+value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
+},
+{
 name = Axes;
 value = (
 {
@@ -51,14 +55,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = "Variable Font Origin";
-value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-},
-{
-name = description;
-value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
 }
 );
 date = "2020-08-02 07:40:34 +0000";
@@ -5977,14 +5973,16 @@ unicode = 1EDE;
 },
 {
 glyphname = Ohorntilde;
-lastChange = "2020-03-29 04:02:40 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 191, 0}";
 },
@@ -6000,9 +5998,11 @@ width = 1412;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 166, 0}";
 },
@@ -6206,14 +6206,16 @@ unicode = 00D8;
 },
 {
 glyphname = Otilde;
-lastChange = "2020-03-06 06:04:23 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 207, 0}";
 }
@@ -6224,9 +6226,11 @@ width = 1412;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 180, 0}";
 }
@@ -7814,14 +7818,16 @@ unicode = 0164;
 },
 {
 glyphname = Tcedilla;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, 158, -14}";
 }
@@ -7832,9 +7838,11 @@ width = 1180;
 {
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, 184, 0}";
 }
@@ -8585,18 +8593,21 @@ unicode = 1EEC;
 },
 {
 glyphname = Uhorntilde;
-lastChange = "2020-03-14 02:28:49 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = horncomb;
 transform = "{1, 0, 0, 1, 914, 360}";
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 175, 0}";
 }
@@ -8607,13 +8618,16 @@ width = 1380;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = horncomb;
 transform = "{1, 0, 0, 1, 810, 360}";
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 166, 0}";
 }
@@ -8728,14 +8742,16 @@ unicode = 016A;
 },
 {
 glyphname = Uogonek;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 468, 70}";
 }
@@ -8746,9 +8762,11 @@ width = 1380;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 400, 62}";
 }
@@ -8832,14 +8850,16 @@ unicode = 016E;
 },
 {
 glyphname = Utilde;
-lastChange = "2020-03-06 06:02:45 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 180, 0}";
 }
@@ -8850,9 +8870,11 @@ width = 1380;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 155, 0}";
 }
@@ -12289,14 +12311,16 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = comma;
 transform = "{1, 0, 0, 1, 1120, 1280}";
 }
@@ -12307,9 +12331,11 @@ width = 1346;
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = comma;
 transform = "{1, 0, 0, 1, 1140, 1168}";
 }
@@ -15020,14 +15046,16 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = comma;
 transform = "{1, 0, 0, 1, 294, 1280}";
 }
@@ -15038,9 +15066,11 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = comma;
 transform = "{1, 0, 0, 1, 472, 1168}";
 }
@@ -19302,14 +19332,16 @@ unicode = 016F;
 },
 {
 glyphname = utilde;
-lastChange = "2020-03-06 06:03:22 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 72, -360}";
 }
@@ -19320,9 +19352,11 @@ width = 1146;
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 56, -360}";
 }
@@ -20121,14 +20155,16 @@ unicode = 1EF7;
 },
 {
 glyphname = ytilde;
-lastChange = "2020-03-06 06:03:41 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 5, -360}";
 }
@@ -20139,9 +20175,11 @@ width = 1012;
 {
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -10, -360}";
 }
@@ -32514,7 +32552,7 @@ unicode = 03CA;
 },
 {
 glyphname = iotadieresistonos;
-lastChange = "2020-03-10 05:49:53 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
@@ -32534,9 +32572,11 @@ width = 1042;
 {
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresistonos;
 transform = "{1, 0, 0, 1, -366, 0}";
 }
@@ -32621,14 +32661,16 @@ unicode = 03CB;
 },
 {
 glyphname = upsilondieresistonos;
-lastChange = "2020-03-14 02:06:15 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = dieresistonos;
 transform = "{1, 0, 0, 1, 28, 0}";
 }
@@ -32639,9 +32681,11 @@ width = 1256;
 {
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = dieresistonos;
 transform = "{1, 0, 0, 1, -43, 0}";
 }
@@ -33769,11 +33813,12 @@ unicode = 0039;
 },
 {
 glyphname = zero.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{-1, 0, 0, 1, 1294, 0}";
 }
@@ -33784,6 +33829,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{-1, 0, 0, 1, 1202, 0}";
 }
@@ -33795,11 +33841,12 @@ width = 1240;
 },
 {
 glyphname = one.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = one;
 transform = "{1, 0, 0, 1, 176, 0}";
 }
@@ -33810,6 +33857,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = one;
 transform = "{1, 0, 0, 1, 244, 0}";
 }
@@ -33821,11 +33869,12 @@ width = 1240;
 },
 {
 glyphname = two.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -33836,6 +33885,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 66, 0}";
 }
@@ -33847,11 +33897,12 @@ width = 1240;
 },
 {
 glyphname = three.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 30, 0}";
 }
@@ -33862,6 +33913,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 86, 0}";
 }
@@ -33873,11 +33925,12 @@ width = 1240;
 },
 {
 glyphname = four.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 18, 0}";
 }
@@ -33888,6 +33941,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 60, 0}";
 }
@@ -33899,11 +33953,12 @@ width = 1240;
 },
 {
 glyphname = five.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, 32, 0}";
 }
@@ -33914,6 +33969,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, 48, 0}";
 }
@@ -33925,11 +33981,12 @@ width = 1240;
 },
 {
 glyphname = six.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, -22, 0}";
 }
@@ -33950,11 +34007,12 @@ width = 1240;
 },
 {
 glyphname = seven.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = seven;
 transform = "{1, 0, 0, 1, 88, 0}";
 }
@@ -33965,6 +34023,7 @@ width = 1240;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 transform = "{1, 0, 0, 1, 158, 0}";
 }
@@ -33976,21 +34035,21 @@ width = 1240;
 },
 {
 glyphname = eight.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
 name = eight;
-transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
-width = 1240;
+width = 1246;
 },
 {
 components = (
 {
+alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, 62, 0}";
 }
@@ -34002,7 +34061,7 @@ width = 1240;
 },
 {
 glyphname = nine.tf;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
@@ -39129,7 +39188,7 @@ layerId = "13A3DD5D-E91B-4961-8595-F8141D3FA442";
 width = 1260;
 }
 );
-note = .notdef;
+note = ".notdef";
 },
 {
 glyphname = .null;
@@ -39159,7 +39218,7 @@ layerId = "13A3DD5D-E91B-4961-8595-F8141D3FA442";
 width = 960;
 }
 );
-note = .null;
+note = ".null";
 },
 {
 glyphname = wordjoiner;
@@ -43365,12 +43424,12 @@ unicode = 2193;
 },
 {
 glyphname = leftArrow;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = upArrow;
 transform = "{0, 1, -1, 0, 1708, -72}";
 }
@@ -43381,9 +43440,9 @@ width = 1988;
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = upArrow;
-transform = "{-0.0001, 1, -1, -0.0001, 1750, -94}";
+transform = "{0, 1, -1, 0, 1750, -94}";
 }
 );
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -45456,18 +45515,21 @@ unicode = 2021;
 },
 {
 glyphname = numero;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = degree;
 transform = "{1, 0, 0, 1, 1300, 0}";
 },
 {
+alignment = -1;
 name = hyphen;
 transform = "{1, 0, 0, 1, 1300, 0}";
 }
@@ -45478,13 +45540,16 @@ width = 2180;
 {
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = degree;
 transform = "{1, 0, 0, 1, 1400, 0}";
 },
 {
+alignment = -1;
 name = hyphen;
 transform = "{1, 0, 0, 1, 1400, -76}";
 }
@@ -45568,7 +45633,7 @@ rightMetricsKey = copyright;
 },
 {
 glyphname = less_hyphen.liga;
-lastChange = "2020-02-20 18:21:12 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
@@ -45582,7 +45647,7 @@ width = 1988;
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = leftArrow;
 }
 );
@@ -45593,11 +45658,12 @@ width = 2030;
 },
 {
 glyphname = "numeral-greek";
-lastChange = "2020-03-29 15:04:27 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, -284, 0}";
 }
@@ -45608,6 +45674,7 @@ width = 648;
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, -378, 0}";
 }
@@ -45624,11 +45691,12 @@ unicode = 0374;
 },
 {
 glyphname = "lowernumeral-greek";
-lastChange = "2020-03-29 15:04:38 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, -284, -1572}";
 }
@@ -45639,6 +45707,7 @@ width = 648;
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, -378, -1542}";
 }
@@ -46199,15 +46268,17 @@ unicode = 0301;
 {
 export = 0;
 glyphname = hungarumlautcomb;
-lastChange = "2020-03-31 10:08:30 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 198, 0}";
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, -152, 0}";
 }
@@ -46218,10 +46289,12 @@ width = 960;
 {
 components = (
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 202, 0}";
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, -222, 0}";
 }
@@ -46309,11 +46382,12 @@ unicode = 0302;
 {
 export = 0;
 glyphname = caroncomb;
-lastChange = "2020-03-29 04:01:07 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, -1, 0, 3480}";
 }
@@ -46324,6 +46398,7 @@ width = 948;
 {
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, -1, 0, 3510}";
 }
@@ -47375,11 +47450,12 @@ unicode = 0338;
 },
 {
 glyphname = tonos;
-lastChange = "2020-03-29 04:06:13 +0000";
+lastChange = "2022-05-29 09:31:39 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, -18, -540}";
 }
@@ -47390,6 +47466,7 @@ width = 1200;
 {
 components = (
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 123, -450}";
 }
