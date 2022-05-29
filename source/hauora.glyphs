@@ -1,8 +1,5 @@
 {
 .appVersion = "3108";
-DisplayStrings = (
-"/Alphatonos"
-);
 classes = (
 {
 automatic = 1;
@@ -46814,13 +46811,13 @@ unicode = 0323;
 {
 export = 0;
 glyphname = commaaccentcomb;
-lastChange = "2020-08-02 03:41:40 +0000";
+lastChange = "2022-05-29 10:31:52 +0000";
 layers = (
 {
 components = (
 {
-name = gravecomb;
-transform = "{-1, 0, 0, 1, 737, -2130}";
+name = acutecomb;
+transform = "{1, 0, 0, 1, -177, -2130}";
 }
 );
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
