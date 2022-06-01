@@ -12,7 +12,7 @@ code = "zero one two three four five six seven eight nine";
 name = Digit;
 }
 );
-copyright = "Copyright (c) 2020 Wayne Shih";
+copyright = "Copyright (c) 2020 WCYS & Co.";
 customParameters = (
 {
 name = fsType;
@@ -37,7 +37,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;

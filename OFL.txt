@@ -1,4 +1,4 @@
-Copyright 2020 Wayne Shih / WCYS (https://wayneshih.com)
+Copyright 2020 WCYS & Co. (https://wcys.co)
 Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
