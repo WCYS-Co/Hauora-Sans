@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>21</td>
+                <td>69</td>
+                <td>759</td>
+                <td>43</td>
+                <td>587</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>2%</td>
+                <td>6%</td>
+                <td>66%</td>
+                <td>4%</td>
+                <td>51%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check license file has good copyright string.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/license/OFL_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file does not match expected format: &quot;copyright 2020 wcys &amp; co. (https://wcys.co)&quot;</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<h3>License URL matches License text on name table?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license_url&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2020 WCYS &amp; Co.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Are there caret positions declared for every ligature?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + l
+- l + f
+- f + i
+- i + l
+- t + t
+- space + less
+- less + three
+- three + space
+- hyphen + greater
+- greater + hyphen
+- parenleft + c
+- c + parenright
+- less + hyphen</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2459, but got 2132 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- .null
+- And nonmarkingreturn
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uni0409	Contours detected: 3	Expected: 2
+- Glyph name: OE	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: fl	Contours detected: 1	Expected: 2
+- Glyph name: oe	Contours detected: 4	Expected: 3
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+- And Glyph name: uni0409	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* question (U+003F): X=691.0,Y=1441.0 (should be at cap-height 1440?)
+* D (U+0044): X=649.5,Y=1439.0 (should be at cap-height 1440?)
+* D (U+0044): X=649.5,Y=1.0 (should be at baseline 0?)
+* M (U+004D): X=1532.0,Y=2.0 (should be at baseline 0?)
+* M (U+004D): X=1419.0,Y=2.0 (should be at baseline 0?)
+* P (U+0050): X=728.0,Y=1438.5 (should be at cap-height 1440?)
+* R (U+0052): X=728.0,Y=1438.5 (should be at cap-height 1440?)
+* r (U+0072): X=480.5,Y=1082.0 (should be at x-height 1080?)
+* section (U+00A7): X=235.0,Y=1.0 (should be at baseline 0?)
+* paragraph (U+00B6): X=562.5,Y=1438.5 (should be at cap-height 1440?) and 88 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* numbersign (U+0023): X=400.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=1055.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=880.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=575.0,Y=1.0 (should be at baseline 0?)
+* two (U+0032): X=100.0,Y=1.0 (should be at baseline 0?)
+* two (U+0032): X=1057.0,Y=1.0 (should be at baseline 0?)
+* at (U+0040): X=372.0,Y=-1.0 (should be at baseline 0?)
+* D (U+0044): X=660.0,Y=1439.0 (should be at cap-height 1440?)
+* D (U+0044): X=660.0,Y=1.0 (should be at baseline 0?)
+* M (U+004D): X=1551.0,Y=1.0 (should be at baseline 0?) and 79 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* exclam (U+0021): X=240.0,Y=1441.0 (should be at cap-height 1440?)
+* exclam (U+0021): X=481.0,Y=1441.0 (should be at cap-height 1440?)
+* numbersign (U+0023): X=377.0,Y=2.0 (should be at baseline 0?)
+* numbersign (U+0023): X=1092.0,Y=2.0 (should be at baseline 0?)
+* numbersign (U+0023): X=857.0,Y=2.0 (should be at baseline 0?)
+* numbersign (U+0023): X=612.0,Y=2.0 (should be at baseline 0?)
+* ampersand (U+0026): X=811.0,Y=1438.5 (should be at cap-height 1440?)
+* two (U+0032): X=100.0,Y=2.0 (should be at baseline 0?)
+* two (U+0032): X=1091.0,Y=2.0 (should be at baseline 0?)
+* D (U+0044): X=670.5,Y=1439.0 (should be at cap-height 1440?) and 73 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* numbersign (U+0023): X=389.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=1073.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=869.0,Y=1.0 (should be at baseline 0?)
+* numbersign (U+0023): X=593.0,Y=1.0 (should be at baseline 0?)
+* ampersand (U+0026): X=795.0,Y=1441.0 (should be at cap-height 1440?)
+* two (U+0032): X=100.0,Y=1.0 (should be at baseline 0?)
+* two (U+0032): X=1074.0,Y=1.0 (should be at baseline 0?)
+* D (U+0044): X=665.0,Y=1439.0 (should be at cap-height 1440?)
+* D (U+0044): X=665.0,Y=1.0 (should be at baseline 0?)
+* M (U+004D): X=1561.0,Y=1.0 (should be at baseline 0?) and 81 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* D (U+0044): X=645.0,Y=1439.0 (should be at cap-height 1440?)
+* D (U+0044): X=644.5,Y=1.5 (should be at baseline 0?)
+* M (U+004D): X=1522.0,Y=2.0 (should be at baseline 0?)
+* M (U+004D): X=1438.0,Y=2.0 (should be at baseline 0?)
+* P (U+0050): X=713.0,Y=1438.5 (should be at cap-height 1440?)
+* R (U+0052): X=713.0,Y=1438.5 (should be at cap-height 1440?)
+* y (U+0079): X=480.0,Y=-1.0 (should be at baseline 0?)
+* paragraph (U+00B6): X=569.0,Y=1438.5 (should be at cap-height 1440?)
+* Eth (U+00D0): X=623.0,Y=1439.0 (should be at cap-height 1440?)
+* Eth (U+00D0): X=622.5,Y=1.5 (should be at baseline 0?) and 57 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1418.0,762.0&gt;-&lt;1420.0,749.0&gt;-&lt;1421.0,716.0&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1421.0,716.0&gt;-&lt;1422.0,683.0&gt;-&lt;1422.0,678.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,34.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1260.0,1440.0&gt;--&lt;1260.0,1406.0&gt;&gt;
+* sterling (U+00A3) contains a short segment L&lt;&lt;80.0,254.0&gt;--&lt;82.0,254.0&gt;&gt;
+* Ccedilla (U+00C7) contains a short segment B&lt;&lt;710.0,-302.0&gt;-&lt;737.0,-302.0&gt;-&lt;751.5,-287.0&gt;&gt;
+* Ccedilla (U+00C7) contains a short segment B&lt;&lt;751.5,-287.0&gt;-&lt;766.0,-272.0&gt;-&lt;766.0,-256.0&gt;&gt;
+* ccedilla (U+00E7) contains a short segment B&lt;&lt;603.5,-287.0&gt;-&lt;618.0,-272.0&gt;-&lt;618.0,-256.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;138.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt;
+* Eogonek (U+0118) contains a short segment B&lt;&lt;860.0,-230.0&gt;-&lt;860.0,-251.0&gt;-&lt;875.0,-265.5&gt;&gt; and 68 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1346.0,734.0&gt;-&lt;1348.0,710.0&gt;-&lt;1349.0,684.5&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1349.0,684.5&gt;-&lt;1350.0,659.0&gt;-&lt;1350.0,649.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,31.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1128.0,1440.0&gt;--&lt;1128.0,1406.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;931.0,697.0&gt;--&lt;931.0,697.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;40.0,0.0&gt;--&lt;40.0,31.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;979.0,1080.0&gt;--&lt;979.0,1046.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;139.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt;
+* eogonek (U+0119) contains a short segment B&lt;&lt;732.0,-37.0&gt;-&lt;740.0,-26.0&gt;-&lt;755.0,-8.0&gt;&gt;
+* Gcircumflex (U+011C) contains a short segment B&lt;&lt;1346.0,734.0&gt;-&lt;1348.0,710.0&gt;-&lt;1349.0,684.5&gt;&gt; and 62 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1328.0,727.0&gt;-&lt;1331.0,701.0&gt;-&lt;1331.5,677.0&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1331.5,677.0&gt;-&lt;1332.0,653.0&gt;-&lt;1332.0,641.0&gt;&gt;
+* R (U+0052) contains a short segment B&lt;&lt;693.0,618.0&gt;-&lt;688.0,618.0&gt;-&lt;683.0,618.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,31.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1095.0,1440.0&gt;--&lt;1095.0,1406.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;899.0,707.0&gt;--&lt;899.0,707.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;40.0,0.0&gt;--&lt;40.0,31.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;977.0,1080.0&gt;--&lt;977.0,1046.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;140.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt;
+* Eogonek (U+0118) contains a short segment B&lt;&lt;884.0,-383.0&gt;-&lt;909.0,-383.0&gt;-&lt;934.5,-368.5&gt;&gt; and 73 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1364.0,741.0&gt;-&lt;1366.0,720.0&gt;-&lt;1367.0,692.5&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1367.0,692.5&gt;-&lt;1368.0,665.0&gt;-&lt;1368.0,656.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,32.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1161.0,1440.0&gt;--&lt;1161.0,1406.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;964.0,686.0&gt;--&lt;964.0,686.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;40.0,0.0&gt;--&lt;40.0,32.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;139.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt;
+* eogonek (U+0119) contains a short segment B&lt;&lt;743.0,-16.0&gt;-&lt;744.0,-15.0&gt;-&lt;745.0,-14.0&gt;&gt;
+* Gcircumflex (U+011C) contains a short segment B&lt;&lt;1364.0,741.0&gt;-&lt;1366.0,720.0&gt;-&lt;1367.0,692.5&gt;&gt;
+* Gcircumflex (U+011C) contains a short segment B&lt;&lt;1367.0,692.5&gt;-&lt;1368.0,665.0&gt;-&lt;1368.0,656.0&gt;&gt; and 54 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1400.0,755.0&gt;-&lt;1402.0,739.0&gt;-&lt;1403.0,708.0&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1403.0,708.0&gt;-&lt;1404.0,677.0&gt;-&lt;1404.0,671.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,33.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1227.0,1440.0&gt;--&lt;1227.0,1406.0&gt;&gt;
+* f (U+0066) contains a short segment L&lt;&lt;234.0,1080.0&gt;--&lt;234.0,1097.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;1029.0,665.0&gt;--&lt;1029.0,665.0&gt;&gt;
+* sterling (U+00A3) contains a short segment L&lt;&lt;77.0,226.0&gt;--&lt;104.0,226.0&gt;&gt;
+* section (U+00A7) contains a short segment B&lt;&lt;484.0,681.0&gt;-&lt;481.0,682.0&gt;-&lt;479.0,682.0&gt;&gt;
+* Ccedilla (U+00C7) contains a short segment B&lt;&lt;753.0,-300.5&gt;-&lt;769.0,-283.0&gt;-&lt;769.0,-264.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;138.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt; and 63 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1382.0,748.0&gt;-&lt;1384.0,730.0&gt;-&lt;1385.0,700.5&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1385.0,700.5&gt;-&lt;1386.0,671.0&gt;-&lt;1386.0,663.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,33.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1194.0,1440.0&gt;--&lt;1194.0,1406.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;997.0,675.0&gt;--&lt;997.0,675.0&gt;&gt;
+* Ccedilla (U+00C7) contains a short segment B&lt;&lt;754.0,-313.5&gt;-&lt;772.0,-294.0&gt;-&lt;772.0,-271.0&gt;&gt;
+* thorn (U+00FE) contains a short segment L&lt;&lt;139.0,1080.0&gt;--&lt;140.0,1080.0&gt;&gt;
+* Eogonek (U+0118) contains a short segment B&lt;&lt;855.5,-302.5&gt;-&lt;874.0,-321.0&gt;-&lt;901.0,-321.0&gt;&gt;
+* Gcircumflex (U+011C) contains a short segment B&lt;&lt;1382.0,748.0&gt;-&lt;1384.0,730.0&gt;-&lt;1385.0,700.5&gt;&gt;
+* Gcircumflex (U+011C) contains a short segment B&lt;&lt;1385.0,700.5&gt;-&lt;1386.0,671.0&gt;-&lt;1386.0,663.0&gt;&gt; and 46 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* G (U+0047) contains a short segment B&lt;&lt;1310.0,720.0&gt;-&lt;1313.0,692.0&gt;-&lt;1313.5,670.0&gt;&gt;
+* G (U+0047) contains a short segment B&lt;&lt;1313.5,670.0&gt;-&lt;1314.0,648.0&gt;-&lt;1314.0,634.0&gt;&gt;
+* R (U+0052) contains a short segment B&lt;&lt;693.0,637.0&gt;-&lt;682.0,636.0&gt;-&lt;670.0,636.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;100.0,0.0&gt;--&lt;100.0,30.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;1062.0,1440.0&gt;--&lt;1062.0,1406.0&gt;&gt;
+* m (U+006D) contains a short segment L&lt;&lt;866.0,718.0&gt;--&lt;866.0,718.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;40.0,0.0&gt;--&lt;40.0,30.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;974.0,1080.0&gt;--&lt;974.0,1046.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;478.0,596.0&gt;--&lt;478.0,612.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;562.0,612.0&gt;--&lt;562.0,596.0&gt;&gt; and 80 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* Ohorn (U+01A0): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt;
+* uni1EDA (U+1EDA): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt;
+* uni1EDC (U+1EDC): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt;
+* uni1EDE (U+1EDE): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt;
+* uni1EE0 (U+1EE0): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt; and uni1EE2 (U+1EE2): L&lt;&lt;892.0,1448.0&gt;--&lt;892.0,1448.0&gt;&gt; -&gt; L&lt;&lt;892.0,1448.0&gt;--&lt;893.0,1448.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>Ohorn (U+01A0): L&lt;&lt;1135.0,1616.0&gt;--&lt;1337.0,1617.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Uacute (U+00DA): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Ubreve (U+016C): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Ucircumflex (U+00DB): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Udieresis (U+00DC): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Ugrave (U+00D9): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;1368.0,1619.0&gt;--&lt;1570.0,1620.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt;</li>
+<li>Uhungarumlaut (U+0170): L&lt;&lt;140.0,1438.0&gt;--&lt;416.0,1440.0&gt;&gt; and 53 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>Omegatonos (U+038F): L&lt;&lt;1104.0,0.0&gt;--&lt;1105.0,141.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Uacute (U+00DA): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Ubreve (U+016C): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Ucircumflex (U+00DB): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Udieresis (U+00DC): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Ugrave (U+00D9): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Uhungarumlaut (U+0170): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt;</li>
+<li>Umacron (U+016A): L&lt;&lt;140.0,1439.0&gt;--&lt;288.0,1440.0&gt;&gt; and 45 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>at (U+0040): L&lt;&lt;1176.0,780.0&gt;--&lt;1175.0,473.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;1425.0,0.0&gt;--&lt;1427.0,726.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;1542.0,743.0&gt;--&lt;1540.0,0.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;783.0,0.0&gt;--&lt;785.0,715.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;899.0,707.0&gt;--&lt;897.0,0.0&gt;&gt;</li>
+<li>sterling (U+00A3): L&lt;&lt;447.0,677.0&gt;--&lt;446.0,112.0&gt;&gt;</li>
+<li>summation (U+2211): L&lt;&lt;928.0,-133.0&gt;--&lt;120.0,-135.0&gt;&gt;</li>
+<li>trademark (U+2122): L&lt;&lt;1650.0,1440.0&gt;--&lt;1651.0,690.0&gt;&gt;</li>
+<li>uni044A (U+044A): L&lt;&lt;185.0,0.0&gt;--&lt;183.0,975.0&gt;&gt;</li>
+<li>uni044B (U+044B): L&lt;&lt;141.0,0.0&gt;--&lt;140.0,1080.0&gt;&gt; and 4 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>Ohorn (U+01A0): L&lt;&lt;1126.0,1621.0&gt;--&lt;1269.0,1622.0&gt;&gt;</li>
+<li>Omegatonos (U+038F): L&lt;&lt;1121.0,0.0&gt;--&lt;1122.0,169.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Uacute (U+00DA): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Ubreve (U+016C): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Ucircumflex (U+00DB): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Udieresis (U+00DC): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Ugrave (U+00D9): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt;</li>
+<li>Uhungarumlaut (U+0170): L&lt;&lt;140.0,1439.0&gt;--&lt;320.0,1440.0&gt;&gt; and 56 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>Ohorn (U+01A0): L&lt;&lt;1132.0,1618.0&gt;--&lt;1314.0,1619.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Uacute (U+00DA): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Ubreve (U+016C): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Ucircumflex (U+00DB): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Udieresis (U+00DC): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Ugrave (U+00D9): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;1360.0,1619.0&gt;--&lt;1543.0,1620.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt;</li>
+<li>Uhungarumlaut (U+0170): L&lt;&lt;140.0,1438.0&gt;--&lt;384.0,1440.0&gt;&gt; and 57 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>Ohorn (U+01A0): L&lt;&lt;1129.0,1619.0&gt;--&lt;1292.0,1620.0&gt;&gt;</li>
+<li>Omegatonos (U+038F): L&lt;&lt;1138.0,0.0&gt;--&lt;1139.0,197.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Uacute (U+00DA): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Ubreve (U+016C): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Ucircumflex (U+00DB): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Udieresis (U+00DC): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Ugrave (U+00D9): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;1352.0,1619.0&gt;--&lt;1515.0,1620.0&gt;&gt;</li>
+<li>Uhorn (U+01AF): L&lt;&lt;140.0,1439.0&gt;--&lt;352.0,1440.0&gt;&gt; and 70 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Hauora-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>ampersand (U+0026): L&lt;&lt;1002.0,426.0&gt;--&lt;1000.0,660.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;1422.0,0.0&gt;--&lt;1424.0,744.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;1508.0,750.0&gt;--&lt;1506.0,0.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;782.0,0.0&gt;--&lt;784.0,730.0&gt;&gt;</li>
+<li>m (U+006D): L&lt;&lt;866.0,718.0&gt;--&lt;864.0,0.0&gt;&gt;</li>
+<li>summation (U+2211): L&lt;&lt;910.0,-132.0&gt;--&lt;120.0,-134.0&gt;&gt;</li>
+<li>trademark (U+2122): L&lt;&lt;1632.0,1440.0&gt;--&lt;1634.0,690.0&gt;&gt;</li>
+<li>uni044A (U+044A): L&lt;&lt;182.0,0.0&gt;--&lt;180.0,996.0&gt;&gt;</li>
+<li>uni044B (U+044B): L&lt;&lt;142.0,0.0&gt;--&lt;140.0,1080.0&gt;&gt;</li>
+<li>uni044C (U+044C): L&lt;&lt;142.0,0.0&gt;--&lt;140.0,1080.0&gt;&gt; and 3 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>
