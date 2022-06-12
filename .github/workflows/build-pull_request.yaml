@@ -1,0 +1,40 @@
+name: Build on pull request
+
+on:
+  pull_request:
+    paths:
+      - '**.glyphs'
+
+jobs:
+  build: 
+    if: "!contains(github.event.head_commit.message, 'chore: build')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Setup: Checkout"
+        uses: actions/checkout@v2
+      - name: "Setup: Python 3.8"
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: "Setup: Dependencies"
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
+          sudo snap install yq
+      - name: "Setup: Cache"
+        uses: actions/cache@v2
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
+      - name: Build font
+        run: make build
+      - name: Check font -- Font Bakery
+        run: make test
+        continue-on-error: true
+      - name: Commit built font
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: fonts/*
+          commit_message: "chore: build"
