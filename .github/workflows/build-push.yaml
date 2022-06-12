@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '**.glyphs'
+      - 'requirements.txt'
+      - '.github/workflows/*'
     branches:
       - master
       - main
