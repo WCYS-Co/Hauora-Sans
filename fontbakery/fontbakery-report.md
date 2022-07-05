@@ -62,8 +62,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -177,8 +177,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -308,8 +308,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -423,8 +423,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -554,8 +554,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -685,8 +685,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -816,8 +816,8 @@ But instead we have got:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nonmarkingreturn 
-	- And .null
+	- .null 
+	- And nonmarkingreturn
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
