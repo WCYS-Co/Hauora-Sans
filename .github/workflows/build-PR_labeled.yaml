@@ -1,0 +1,52 @@
+name: Build on pull request with TRIGGER BUILD labeled
+
+on:
+  pull_request:
+    types:
+      - labeled
+
+jobs:
+  build-PR_labeled: 
+    if: "contains(github.event.pull_request.labels.*.name, 'TRIGGER BUILD')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Check out repository"
+        uses: actions/checkout@v2
+      - name: "Set up Python 3.8"
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: "Set up dependencies"
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
+          sudo snap install yq
+      - name: "Cache dependencies"
+        uses: actions/cache@v2
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
+      - name: "Build fonts"
+        run: make build
+      - name: "Generate Font Bakery report"
+        run: make test
+        continue-on-error: true
+      - name: "Import GPG key for signing"
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.BOT_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.BOT_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+        continue-on-error: true
+      - name: "Commit new builds"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: fonts/*
+          commit_message: "chore: build"
+          commit_user_name: wcys-bot
+          commit_user_email: beep-boop@wcys.co
+          commit_author: wcys-bot <beep-boop@wcys.co>

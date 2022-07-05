@@ -3,41 +3,41 @@ name: Build on release
 on: [release]
 
 jobs:
-  build:
+  build-release:
     runs-on: ubuntu-latest
     steps:
-      - name: "Setup: Checkout"
+      - name: "Check out repository"
         uses: actions/checkout@v2
-      - name: "Setup: Python 3.8"
+      - name: "Set up Python 3.8"
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: "Setup: Dependencies"
+      - name: "Set up dependencies"
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
           sudo snap install yq
-      - name: "Setup: Cache"
+      - name: "Cache dependencies"
         uses: actions/cache@v2
         with:
           path: ./venv/
           key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv-
-      - name: "Setup: Zip file name"
+      - name: "Set up zip file for outputs"
         id: zip-name
         shell: bash
         run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-      - name: Build font
+      - name: "Build fonts"
         run: make build
-      - name: Check font -- Font Bakery
+      - name: "Generate Font Bakery report"
         run: make test
         continue-on-error: true
-      - name: Check font -- Make proof
+      - name: "Generate font proofs"
         run: make proof
-      - name: Check font -- Generate site
+      - name: "Generate proof site"
         run: cp scripts/index.html out/index.html
-      - name: Deploy -- Archive
+      - name: "Upload zip as action artifact"
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.ZIP_NAME }}
