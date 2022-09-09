@@ -36,6 +36,15 @@ value = 0.03796;
 {
 name = "Variable Font Origin";
 value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 date = "2022-05-29 10:34:28 +0000";
@@ -50087,7 +50096,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://github.com/WCYS-Co/Hauora-Sans/blob/master/OFL.txt";
 },
 {
 key = vendorID;
