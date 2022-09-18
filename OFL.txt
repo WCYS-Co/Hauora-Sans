@@ -1,10 +1,10 @@
-Copyright 2020 WCYS & Co. (https://wcys.co)
-Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+Copyright 2020, WCYS & Co. (https://wcys.co) with Reserved Font Name "Hauora" and "Hauora Sans".
+Copyright 2020, The Hauora Project Authors (https://github.com/WCYS-Co/Hauora-Sans).
+Copyright 2018, The Manrope Project Authors (https://github.com/sharanda/manrope).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
-
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007

@@ -48695,7 +48695,8 @@ wght = {
 }
 );
 instanceInterpolations = {
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = -0.33333;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1.33333;
 };
 name = Regular;
 type = variable;
@@ -50055,7 +50056,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2020 WCYS & Co.";
+value = "Copyright (c) 2020 WCYS & Co. with Reserved Font Name \"Hauora\" and \"Hauora Sans\"";
 }
 );
 },
@@ -50065,6 +50066,10 @@ values = (
 {
 language = dflt;
 value = "Wayne Shih";
+},
+{
+language = dflt;
+value = "Mikhail Sharanda";
 }
 );
 },
@@ -50103,11 +50108,11 @@ key = vendorID;
 value = WCYS;
 },
 {
-key = descriptions;
+key = trademarks;
 values = (
 {
 language = dflt;
-value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
+value = "Hauora and Hauora Sans are trademarks of WCYS & Co.";
 }
 );
 }
