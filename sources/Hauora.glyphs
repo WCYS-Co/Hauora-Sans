@@ -1,6 +1,12 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 classes = (
 {
 automatic = 1;
@@ -30,13 +36,13 @@ value = 0.03796;
 {
 name = "Variable Font Origin";
 value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
-}
+},
 {
-name = Axes;
+name = "Virtual Master";
 value = (
 {
-Name = Weight;
-Tag = wght;
+Axis = Weight;
+Location = 400;
 }
 );
 }
@@ -381,7 +387,9 @@ tag = calt;
 );
 fontMaster = (
 {
-custom = ExtraLight;
+axesValues = (
+200
+);
 customParameters = (
 {
 name = typoAscender;
@@ -449,14 +457,15 @@ pos = -600;
 }
 );
 name = ExtraLight;
-weightClass = ExtraLight;
 userData = {
 GSCornerRadius = 205;
 };
 visible = 1;
 },
 {
-custom = ExtraBold;
+axesValues = (
+800
+);
 customParameters = (
 {
 name = typoAscender;
@@ -524,7 +533,6 @@ pos = -600;
 }
 );
 name = ExtraBold;
-weightClass = ExtraBold;
 userData = {
 GSCornerRadius = 15;
 };
@@ -48671,66 +48679,102 @@ metricLeft = o;
 }
 );
 instances = (
+{
+axesValues = (
+0
+);
+customParameters = (
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 200;
+800 = 800;
+};
+};
+}
+);
 instanceInterpolations = {
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
+"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = -0.33333;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1.33333;
 };
 name = Regular;
 type = variable;
 },
 {
+axesValues = (
+200
+);
 instanceInterpolations = {
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
+weightClass = 200;
 },
 {
+axesValues = (
+300
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.16667;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.83333;
 };
 name = Light;
-weightClass = Light;
+weightClass = 300;
 },
 {
+axesValues = (
+400
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.33333;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.66667;
 };
 name = Regular;
-weightClass = Regular;
 },
 {
+axesValues = (
+500
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.5;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.5;
 };
 name = Medium;
-weightClass = Medium;
+weightClass = 500;
 },
 {
+axesValues = (
+600
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.66667;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.33333;
 };
 name = SemiBold;
-weightClass = SemiBold;
+weightClass = 600;
 },
 {
+axesValues = (
+700
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.83333;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.16667;
 };
 isBold = 1;
 name = Bold;
-weightClass = Bold;
+weightClass = 700;
 },
 {
+axesValues = (
+800
+);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 1;
 };
 name = ExtraBold;
-weightClass = ExtraBold;
+weightClass = 800;
 }
 );
 kerningLTR = {
@@ -50012,7 +50056,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2020 WCYS & Co.";
+value = "Copyright (c) 2020 WCYS & Co. with Reserved Font Name \"Hauora\" and \"Hauora Sans\"";
 }
 );
 },
@@ -50022,6 +50066,10 @@ values = (
 {
 language = dflt;
 value = "Wayne Shih";
+},
+{
+language = dflt;
+value = "Mikhail Sharanda";
 }
 );
 },
@@ -50053,18 +50101,18 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://github.com/WCYS-Co/Hauora-Sans/blob/master/OFL.txt";
 },
 {
 key = vendorID;
 value = WCYS;
 },
 {
-key = descriptions;
+key = trademarks;
 values = (
 {
 language = dflt;
-value = "Hauora is derived from Manrope (https://manropefont.com/) — designed by Mikhail Sharanda (https://gent.media/).";
+value = "Hauora and Hauora Sans are trademarks of WCYS & Co.";
 }
 );
 }
