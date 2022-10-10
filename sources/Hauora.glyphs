@@ -1,12 +1,6 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 classes = (
 {
 automatic = 1;
@@ -36,6 +30,15 @@ value = 0.03796;
 {
 name = "Variable Font Origin";
 value = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
+}
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2022-05-29 10:34:28 +0000";
@@ -378,9 +381,7 @@ tag = calt;
 );
 fontMaster = (
 {
-axesValues = (
-200
-);
+custom = ExtraLight;
 customParameters = (
 {
 name = typoAscender;
@@ -448,15 +449,14 @@ pos = -600;
 }
 );
 name = ExtraLight;
+weightClass = ExtraLight;
 userData = {
 GSCornerRadius = 205;
 };
 visible = 1;
 },
 {
-axesValues = (
-800
-);
+custom = ExtraBold;
 customParameters = (
 {
 name = typoAscender;
@@ -524,6 +524,7 @@ pos = -600;
 }
 );
 name = ExtraBold;
+weightClass = ExtraBold;
 userData = {
 GSCornerRadius = 15;
 };
@@ -48670,21 +48671,6 @@ metricLeft = o;
 }
 );
 instances = (
-{
-axesValues = (
-200
-);
-customParameters = (
-{
-name = "Axis Mappings";
-value = {
-wght = {
-200 = 200;
-800 = 800;
-};
-};
-}
-);
 instanceInterpolations = {
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
 };
@@ -48692,79 +48678,59 @@ name = Regular;
 type = variable;
 },
 {
-axesValues = (
-200
-);
 instanceInterpolations = {
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
 };
 name = ExtraLight;
-weightClass = 200;
+weightClass = ExtraLight;
 },
 {
-axesValues = (
-300
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.16667;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.83333;
 };
 name = Light;
-weightClass = 300;
+weightClass = Light;
 },
 {
-axesValues = (
-400
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.33333;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.66667;
 };
 name = Regular;
+weightClass = Regular;
 },
 {
-axesValues = (
-500
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.5;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.5;
 };
 name = Medium;
-weightClass = 500;
+weightClass = Medium;
 },
 {
-axesValues = (
-600
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.66667;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.33333;
 };
 name = SemiBold;
-weightClass = 600;
+weightClass = SemiBold;
 },
 {
-axesValues = (
-700
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 0.83333;
 "CAA188E2-8C62-414B-93AE-B576BEB044DB" = 0.16667;
 };
 isBold = 1;
 name = Bold;
-weightClass = 700;
+weightClass = Bold;
 },
 {
-axesValues = (
-800
-);
 instanceInterpolations = {
 "0DA27741-1AFD-43F2-A947-40AFBF8D6498" = 1;
 };
 name = ExtraBold;
-weightClass = 800;
+weightClass = ExtraBold;
 }
 );
 kerningLTR = {
