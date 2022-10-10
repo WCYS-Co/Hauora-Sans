@@ -45,6 +45,15 @@ Axis = Weight;
 Location = 400;
 }
 );
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 200;
+800 = 800;
+};
+};
 }
 );
 date = "2022-05-29 10:34:28 +0000";
@@ -48695,8 +48704,7 @@ wght = {
 }
 );
 instanceInterpolations = {
-"0DA27741-1AFD-43F2-A947-40AFBF8D6498" = -0.33333;
-"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1.33333;
+"CAA188E2-8C62-414B-93AE-B576BEB044DB" = 1;
 };
 name = Regular;
 type = variable;
