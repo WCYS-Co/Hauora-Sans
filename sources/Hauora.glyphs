@@ -39102,7 +39102,7 @@ metricRight = guillemetright;
 glyphname = guilsinglleft.case;
 kernLeft = less;
 kernRight = less;
-lastChange = "2022-09-09 22:58:19 +0000";
+lastChange = "2022-10-10 11:27:44 +0000";
 layers = (
 {
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -39125,14 +39125,14 @@ ref = guilsinglleft;
 width = 1140;
 }
 );
-metricLeft = less;
-metricRight = less;
+metricLeft = guilsinglleft;
+metricRight = guilsinglleft;
 },
 {
 glyphname = guilsinglright.case;
 kernLeft = greater;
 kernRight = greater;
-lastChange = "2022-09-09 22:58:59 +0000";
+lastChange = "2022-10-10 11:28:54 +0000";
 layers = (
 {
 layerId = "0DA27741-1AFD-43F2-A947-40AFBF8D6498";
@@ -39155,8 +39155,8 @@ ref = guilsinglright;
 width = 1140;
 }
 );
-metricLeft = guilsinglleft.case;
-metricRight = guilsinglleft.case;
+metricLeft = guilsinglright;
+metricRight = guilsinglright;
 },
 {
 glyphname = florin;
