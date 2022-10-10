@@ -43553,7 +43553,7 @@ unicode = 215;
 },
 {
 glyphname = divide;
-lastChange = "2022-09-09 22:49:34 +0000";
+lastChange = "2022-10-10 12:01:38 +0000";
 layers = (
 {
 layerId = "CAA188E2-8C62-414B-93AE-B576BEB044DB";
@@ -43562,11 +43562,11 @@ shapes = (
 ref = minus;
 },
 {
-pos = (350,902);
+pos = (350,982);
 ref = period;
 },
 {
-pos = (350,418);
+pos = (350,324);
 ref = period;
 }
 );
